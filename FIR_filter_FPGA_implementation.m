@@ -8,6 +8,9 @@
 
 
 %clear all; close all; clc;
+close all;
+clc;
+
 %create two tone input signal.
 
 %A1,A2 are the amplitude of the signals
@@ -44,7 +47,7 @@ filtered_signal_sw=filter(b(1:taps),1,sig); %filter the signal
 %soundsc(sig,fs); %Play orginal
 %soundsc(filtered_signal,fs); %Play filtered
 % figure
-% plot(sig); hold on; plot(filtered_signal_sw); legend('Original','Filtered');
+plot(sig); hold on; plot(filtered_signal_sw); legend('Original','Filtered'); title('Software');
 %%
 % Parameters for the System Generator Design
 LH=length(sig);
@@ -54,11 +57,11 @@ sig_in(:,2)=sig; % This is the input signa to the System Generator Model
 
 % Fixed-point word lengths for signal
 W = 16;
-D = 5;
+D = 14;
 
 % Fixed-point word lengths for filter coefficients
 Wc = 16;
-Dc = 10;
+Dc = 16;
 
 % After setting these up you can run the Simulink model with System
 % Generator design and this will provide the filtered output. You can then
@@ -68,14 +71,20 @@ Dc = 10;
 C = out.C.Data;
 
 figure;
-plot(sig); hold on; plot(C); legend('Original','Filtered');
+plot(sig); hold on; plot(C); legend('Original','Filtered'); title('Hardware');
 
-error_vect = [];
-for i = 1 : length(filtered_signal_sw)
-    error_vect(i) = (((C(i) - filtered_signal_sw(i))^2) / ((filtered_signal_sw(i))^2));
-end
+%error_vect = [];
+%for i = 1 : length(filtered_signal_sw)
+%    error_vect(i) = ((sum(C(i) - filtered_signal_sw(i))^2) / sum((filtered_signal_sw(i))^2));
+%end
+error_frac = sum((C - filtered_signal_sw).^2) / sum((filtered_signal_sw).^2);
 
-SER_vect = 10 * log10(error_vect);
+numerator = (C - filtered_signal_sw).^2;
+denominator = (filtered_signal_sw).^2;
+num_sum = sum(numerator);
+den_sum = sum(denominator);
 
-% figure;
-% plot(SER_vect);
+SER = 20 * log10(num_sum / den_sum);
+
+%figure;
+%plot(SER_vect);
