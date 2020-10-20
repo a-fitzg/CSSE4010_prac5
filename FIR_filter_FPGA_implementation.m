@@ -57,11 +57,11 @@ sig_in(:,2)=sig; % This is the input signa to the System Generator Model
 
 % Fixed-point word lengths for signal
 W = 16;
-D = 14;
+D = 15;
 
 % Fixed-point word lengths for filter coefficients
 Wc = 16;
-Dc = 16;
+Dc = 14;
 
 % After setting these up you can run the Simulink model with System
 % Generator design and this will provide the filtered output. You can then
@@ -77,14 +77,21 @@ plot(sig); hold on; plot(C); legend('Original','Filtered'); title('Hardware');
 %for i = 1 : length(filtered_signal_sw)
 %    error_vect(i) = ((sum(C(i) - filtered_signal_sw(i))^2) / sum((filtered_signal_sw(i))^2));
 %end
-error_frac = sum((C - filtered_signal_sw).^2) / sum((filtered_signal_sw).^2);
+%error_frac = log10(sum(C.^2) / sum(filtered_signal_sw.^2));
 
-numerator = (C - filtered_signal_sw).^2;
-denominator = (filtered_signal_sw).^2;
-num_sum = sum(numerator);
-den_sum = sum(denominator);
+% numerator = (C - filtered_signal_sw).^2;
+% denominator = (filtered_signal_sw).^2;
+% num_sum = sum(numerator);
+% den_sum = sum(denominator);
 
-SER = 20 * log10(num_sum / den_sum);
+SER = 20 * log10(((sum(C - filtered_signal_sw))^2)/((sum(filtered_signal_sw))^2));
+
+figure;
+hold on;
+plot(C);
+plot(filtered_signal_sw);
+title('Hardware vs software filtered');
+legend('Hardware', 'Software');
 
 %figure;
 %plot(SER_vect);
