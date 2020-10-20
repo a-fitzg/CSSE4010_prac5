@@ -6,14 +6,14 @@
 namespace eval ::xilinx::dsp::planaheaddriver {
 	set AnalyzeTiming 1
 	set AnalyzeTimingNumPaths {10000}
-	set AnalyzeTimingPostImplementation 1
-	set AnalyzeTimingPostSynthesis 0
+	set AnalyzeTimingPostImplementation 0
+	set AnalyzeTimingPostSynthesis 1
 	set Compilation {HDL Netlist}
 	set CompilationFlow {STANDARD}
-	set DSPDevice {xc7v2000t}
-	set DSPFamily {virtex7}
-	set DSPPackage {flg1925}
-	set DSPSpeed {-1}
+	set DSPDevice {xc7k325t}
+	set DSPFamily {kintex7}
+	set DSPPackage {fbg676}
+	set DSPSpeed {-3}
 	set FPGAClockPeriod 10
 	set GenerateTestBench 0
 	set HDLLanguage {vhdl}
@@ -40,7 +40,7 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	set SimulationTime {200200.00000000 ns}
 	set SynthStrategyName {Vivado Synthesis Defaults}
 	set SynthesisTool {Vivado}
-	set TargetDir {C:/Users/s4533087/CSSE4010/prac5/netlist}
+	set TargetDir {C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist}
 	set TopLevelModule {fir_normal}
 	set TopLevelSimulinkHandle 0.000244141
 	set VHDLLib {xil_defaultlib}

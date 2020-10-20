@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i4_synth_1'
+HD_PWD='C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i4_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

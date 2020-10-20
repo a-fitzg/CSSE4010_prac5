@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6.tcl"
+  variable script "C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6.tcl"
   variable category "vivado_synth"
 }
 
@@ -74,21 +74,21 @@ set_param netlist.enableMultipleFileLines 1
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
-create_project -in_memory -part xc7v2000tflg1925-1
+create_project -in_memory -part xc7k325tfbg676-3
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.cache/wt [current_project]
-set_property parent.project_path C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.cache/wt [current_project]
+set_property parent.project_path C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.cache/ip [current_project]
+set_property ip_output_repo c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6.xci
+read_ip -quiet c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6.xci
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -102,14 +102,14 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 set_param ips.enableIPCacheLiteLoad 1
 OPTRACE "Configure IP Cache" START { }
 
-set cached_ip [config_ip_cache -export -no_bom  -dir C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1 -new_name fir_normal_c_addsub_v12_0_i6 -ip [get_ips fir_normal_c_addsub_v12_0_i6]]
+set cached_ip [config_ip_cache -export -no_bom  -dir C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1 -new_name fir_normal_c_addsub_v12_0_i6 -ip [get_ips fir_normal_c_addsub_v12_0_i6]]
 
 OPTRACE "Configure IP Cache" END { }
 if { $cached_ip eq {} } {
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top fir_normal_c_addsub_v12_0_i6 -part xc7v2000tflg1925-1 -mode out_of_context
+synth_design -top fir_normal_c_addsub_v12_0_i6 -part xc7k325tfbg676-3 -mode out_of_context
 OPTRACE "synth_design" END { }
 OPTRACE "Write IP Cache" START { }
 
@@ -154,32 +154,32 @@ create_report "fir_normal_c_addsub_v12_0_i6_synth_1_synth_report_utilization_0" 
 OPTRACE "synth reports" END { }
 
 if { [catch {
-  file copy -force C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6.dcp c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6.dcp
+  file copy -force C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6.dcp c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  write_verilog -force -mode synth_stub c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.v
+  write_verilog -force -mode synth_stub c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode synth_stub c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.vhdl
+  write_vhdl -force -mode synth_stub c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_verilog -force -mode funcsim c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_sim_netlist.v
+  write_verilog -force -mode funcsim c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode funcsim c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_sim_netlist.vhdl
+  write_vhdl -force -mode funcsim c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -189,47 +189,47 @@ if { [catch {
 
 
 if { [catch {
-  file copy -force C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6.dcp c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6.dcp
+  file copy -force C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6.dcp c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  file rename -force C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6_stub.v c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.v
+  file rename -force C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6_stub.v c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6_stub.vhdl c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.vhdl
+  file rename -force C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6_stub.vhdl c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6_sim_netlist.v c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_sim_netlist.v
+  file rename -force C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6_sim_netlist.v c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6_sim_netlist.vhdl c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_sim_netlist.vhdl
+  file rename -force C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/fir_normal_c_addsub_v12_0_i6_sim_netlist.vhdl c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 }; # end if cached_ip 
 
-if {[file isdir C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.ip_user_files/ip/fir_normal_c_addsub_v12_0_i6]} {
+if {[file isdir C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.ip_user_files/ip/fir_normal_c_addsub_v12_0_i6]} {
   catch { 
-    file copy -force c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.v C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.ip_user_files/ip/fir_normal_c_addsub_v12_0_i6
+    file copy -force c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.v C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.ip_user_files/ip/fir_normal_c_addsub_v12_0_i6
   }
 }
 
-if {[file isdir C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.ip_user_files/ip/fir_normal_c_addsub_v12_0_i6]} {
+if {[file isdir C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.ip_user_files/ip/fir_normal_c_addsub_v12_0_i6]} {
   catch { 
-    file copy -force c:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.vhdl C:/Users/s4533087/CSSE4010/prac5/netlist/hdl_netlist/fir_normal.ip_user_files/ip/fir_normal_c_addsub_v12_0_i6
+    file copy -force c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_stub.vhdl C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.ip_user_files/ip/fir_normal_c_addsub_v12_0_i6
   }
 }
 file delete __synthesis_is_running__

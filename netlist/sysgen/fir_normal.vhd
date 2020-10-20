@@ -12,58 +12,59 @@ entity fir_normal_struct is
   );
 end fir_normal_struct;
 architecture structural of fir_normal_struct is 
-  signal delay9_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay10_q_net : std_logic_vector( 16-1 downto 0 );
+  signal gateway_in_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub15_s_net : std_logic_vector( 32-1 downto 0 );
+  signal ce_net : std_logic;
+  signal clk_net : std_logic;
+  signal cmult4_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub1_s_net : std_logic_vector( 18-1 downto 0 );
   signal addsub13_s_net : std_logic_vector( 30-1 downto 0 );
+  signal addsub10_s_net : std_logic_vector( 27-1 downto 0 );
+  signal addsub11_s_net : std_logic_vector( 28-1 downto 0 );
   signal cmult3_p_net : std_logic_vector( 16-1 downto 0 );
   signal addsub14_s_net : std_logic_vector( 31-1 downto 0 );
+  signal cmult5_p_net : std_logic_vector( 16-1 downto 0 );
+  signal cmult17_p_net : std_logic_vector( 16-1 downto 0 );
+  signal cmult16_p_net : std_logic_vector( 16-1 downto 0 );
+  signal cmult6_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub12_s_net : std_logic_vector( 29-1 downto 0 );
+  signal addsub9_s_net : std_logic_vector( 26-1 downto 0 );
   signal cmult2_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub_s_net : std_logic_vector( 17-1 downto 0 );
+  signal cmult15_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub7_s_net : std_logic_vector( 24-1 downto 0 );
   signal cmult1_p_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult13_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub2_s_net : std_logic_vector( 19-1 downto 0 );
+  signal addsub5_s_net : std_logic_vector( 22-1 downto 0 );
+  signal cmult11_p_net : std_logic_vector( 16-1 downto 0 );
+  signal cmult12_p_net : std_logic_vector( 16-1 downto 0 );
   signal cmult14_p_net : std_logic_vector( 16-1 downto 0 );
   signal addsub3_s_net : std_logic_vector( 20-1 downto 0 );
-  signal addsub4_s_net : std_logic_vector( 21-1 downto 0 );
-  signal addsub5_s_net : std_logic_vector( 22-1 downto 0 );
+  signal cmult13_p_net : std_logic_vector( 16-1 downto 0 );
   signal addsub6_s_net : std_logic_vector( 23-1 downto 0 );
-  signal addsub7_s_net : std_logic_vector( 24-1 downto 0 );
-  signal addsub8_s_net : std_logic_vector( 25-1 downto 0 );
-  signal cmult8_p_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult12_p_net : std_logic_vector( 16-1 downto 0 );
   signal cmult10_p_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult11_p_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult7_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub2_s_net : std_logic_vector( 19-1 downto 0 );
   signal cmult9_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub4_s_net : std_logic_vector( 21-1 downto 0 );
+  signal delay16_q_net : std_logic_vector( 16-1 downto 0 );
+  signal cmult8_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub8_s_net : std_logic_vector( 25-1 downto 0 );
+  signal delay9_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay8_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay10_q_net : std_logic_vector( 16-1 downto 0 );
+  signal cmult7_p_net : std_logic_vector( 16-1 downto 0 );
   signal delay12_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay15_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay13_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay11_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay14_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay3_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay6_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay11_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay5_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay2_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay1_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay4_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay2_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay6_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay3_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay1_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay7_q_net : std_logic_vector( 16-1 downto 0 );
-  signal gateway_in_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub15_s_net : std_logic_vector( 32-1 downto 0 );
-  signal addsub_s_net : std_logic_vector( 17-1 downto 0 );
-  signal addsub1_s_net : std_logic_vector( 18-1 downto 0 );
-  signal ce_net : std_logic;
-  signal clk_net : std_logic;
-  signal cmult17_p_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult15_p_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult16_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub12_s_net : std_logic_vector( 29-1 downto 0 );
-  signal cmult6_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub10_s_net : std_logic_vector( 27-1 downto 0 );
-  signal cmult5_p_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult4_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub9_s_net : std_logic_vector( 26-1 downto 0 );
-  signal addsub11_s_net : std_logic_vector( 28-1 downto 0 );
 begin
   gateway_in_net <= gateway_in;
   gateway_out <= addsub15_s_net;
@@ -591,7 +592,7 @@ begin
     core_clr => '1',
     en => "1",
     rst => "0",
-    a => gateway_in_net,
+    a => delay16_q_net,
     clk => clk_net,
     ce => ce_net,
     core_clk => clk_net,
@@ -1136,7 +1137,7 @@ begin
   port map (
     en => '1',
     rst => '0',
-    d => gateway_in_net,
+    d => delay16_q_net,
     clk => clk_net,
     ce => ce_net,
     q => delay_q_net
@@ -1366,6 +1367,21 @@ begin
     ce => ce_net,
     q => delay9_q_net
   );
+  delay16 : entity xil_defaultlib.fir_normal_xldelay 
+  generic map (
+    latency => 1,
+    reg_retiming => 0,
+    reset => 0,
+    width => 16
+  )
+  port map (
+    en => '1',
+    rst => '0',
+    d => gateway_in_net,
+    clk => clk_net,
+    ce => ce_net,
+    q => delay16_q_net
+  );
 end structural;
 -- Generated from Simulink block 
 library IEEE;
@@ -1410,9 +1426,9 @@ entity fir_normal is
 end fir_normal;
 architecture structural of fir_normal is 
   attribute core_generation_info : string;
-  attribute core_generation_info of structural : architecture is "fir_normal,sysgen_core_2020_1,{,compilation=HDL Netlist,block_icon_display=Default,family=virtex7,part=xc7v2000t,speed=-1,package=flg1925,synthesis_language=vhdl,hdl_library=xil_defaultlib,synthesis_strategy=Vivado Synthesis Defaults,implementation_strategy=Vivado Implementation Defaults,testbench=0,interface_doc=0,ce_clr=0,clock_period=10,system_simulink_period=1,waveform_viewer=0,axilite_interface=0,ip_catalog_plugin=0,hwcosim_burst_mode=0,simulation_time=19999,addsub=16,cmult=17,delay=16,}";
-  signal clk_1_net : std_logic;
+  attribute core_generation_info of structural : architecture is "fir_normal,sysgen_core_2020_1,{,compilation=HDL Netlist,block_icon_display=Default,family=kintex7,part=xc7k325t,speed=-3,package=fbg676,synthesis_language=vhdl,hdl_library=xil_defaultlib,synthesis_strategy=Vivado Synthesis Defaults,implementation_strategy=Vivado Implementation Defaults,testbench=0,interface_doc=0,ce_clr=0,clock_period=10,system_simulink_period=1,waveform_viewer=0,axilite_interface=0,ip_catalog_plugin=0,hwcosim_burst_mode=0,simulation_time=19999,addsub=16,cmult=17,delay=17,}";
   signal ce_1_net : std_logic;
+  signal clk_1_net : std_logic;
 begin
   fir_normal_default_clock_driver : entity xil_defaultlib.fir_normal_default_clock_driver 
   port map (
