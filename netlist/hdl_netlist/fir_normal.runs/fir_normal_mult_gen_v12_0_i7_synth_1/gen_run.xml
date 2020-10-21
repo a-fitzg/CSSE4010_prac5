@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="fir_normal_mult_gen_v12_0_i7_synth_1" LaunchPart="xc7k325tfbg676-3" LaunchTime="1603169125">
+<GenRun Id="fir_normal_mult_gen_v12_0_i7_synth_1" LaunchPart="xc7a100tftg256-1" LaunchTime="1603283329">
   <File Type="PA-TCL" Name="fir_normal_mult_gen_v12_0_i7.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="fir_normal_mult_gen_v12_0_i7_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="fir_normal_mult_gen_v12_0_i7_reports.tcl"/>

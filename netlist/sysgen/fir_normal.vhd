@@ -12,65 +12,66 @@ entity fir_normal_struct is
   );
 end fir_normal_struct;
 architecture structural of fir_normal_struct is 
-  signal gateway_in_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub15_s_net : std_logic_vector( 32-1 downto 0 );
-  signal ce_net : std_logic;
-  signal clk_net : std_logic;
-  signal cmult4_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub1_s_net : std_logic_vector( 18-1 downto 0 );
-  signal addsub13_s_net : std_logic_vector( 30-1 downto 0 );
-  signal addsub10_s_net : std_logic_vector( 27-1 downto 0 );
-  signal addsub11_s_net : std_logic_vector( 28-1 downto 0 );
-  signal cmult3_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub14_s_net : std_logic_vector( 31-1 downto 0 );
   signal cmult5_p_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult17_p_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult16_p_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult6_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub12_s_net : std_logic_vector( 29-1 downto 0 );
-  signal addsub9_s_net : std_logic_vector( 26-1 downto 0 );
-  signal cmult2_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub_s_net : std_logic_vector( 17-1 downto 0 );
-  signal cmult15_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub7_s_net : std_logic_vector( 24-1 downto 0 );
-  signal cmult1_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub5_s_net : std_logic_vector( 22-1 downto 0 );
-  signal cmult11_p_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult12_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub2_s_net : std_logic_vector( 18-1 downto 0 );
+  signal cmult3_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub3_s_net : std_logic_vector( 19-1 downto 0 );
+  signal addsub4_s_net : std_logic_vector( 20-1 downto 0 );
+  signal cmult4_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub15_s_net : std_logic_vector( 31-1 downto 0 );
+  signal addsub13_s_net : std_logic_vector( 29-1 downto 0 );
   signal cmult14_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub3_s_net : std_logic_vector( 20-1 downto 0 );
+  signal cmult15_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub14_s_net : std_logic_vector( 30-1 downto 0 );
+  signal cmult16_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub16_s_net : std_logic_vector( 32-1 downto 0 );
+  signal cmult17_p_net : std_logic_vector( 16-1 downto 0 );
+  signal gateway_in_net : std_logic_vector( 16-1 downto 0 );
+  signal clk_net : std_logic;
+  signal ce_net : std_logic;
+  signal delay17_q_net : std_logic_vector( 32-1 downto 0 );
+  signal addsub1_s_net : std_logic_vector( 17-1 downto 0 );
+  signal cmult11_p_net : std_logic_vector( 16-1 downto 0 );
+  signal cmult1_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub9_s_net : std_logic_vector( 25-1 downto 0 );
+  signal addsub10_s_net : std_logic_vector( 26-1 downto 0 );
+  signal cmult12_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub11_s_net : std_logic_vector( 27-1 downto 0 );
+  signal cmult2_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub12_s_net : std_logic_vector( 28-1 downto 0 );
   signal cmult13_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub6_s_net : std_logic_vector( 23-1 downto 0 );
   signal cmult10_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub2_s_net : std_logic_vector( 19-1 downto 0 );
-  signal cmult9_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub4_s_net : std_logic_vector( 21-1 downto 0 );
   signal delay16_q_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult8_p_net : std_logic_vector( 16-1 downto 0 );
-  signal addsub8_s_net : std_logic_vector( 25-1 downto 0 );
-  signal delay9_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay8_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay9_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay10_q_net : std_logic_vector( 16-1 downto 0 );
-  signal cmult7_p_net : std_logic_vector( 16-1 downto 0 );
+  signal delay11_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay12_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay1_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay14_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay2_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay13_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay15_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay13_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay14_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay11_q_net : std_logic_vector( 16-1 downto 0 );
+  signal delay6_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay5_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay4_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay2_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay6_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay3_q_net : std_logic_vector( 16-1 downto 0 );
-  signal delay1_q_net : std_logic_vector( 16-1 downto 0 );
   signal delay7_q_net : std_logic_vector( 16-1 downto 0 );
+  signal cmult6_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub5_s_net : std_logic_vector( 21-1 downto 0 );
+  signal cmult7_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub7_s_net : std_logic_vector( 23-1 downto 0 );
+  signal cmult8_p_net : std_logic_vector( 16-1 downto 0 );
+  signal addsub6_s_net : std_logic_vector( 22-1 downto 0 );
+  signal addsub8_s_net : std_logic_vector( 24-1 downto 0 );
+  signal cmult9_p_net : std_logic_vector( 16-1 downto 0 );
 begin
   gateway_in_net <= gateway_in;
-  gateway_out <= addsub15_s_net;
+  gateway_out <= delay17_q_net;
   clk_net <= clk_1;
   ce_net <= ce_1;
-  addsub : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub1 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -95,44 +96,44 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult16_p_net,
-    b => cmult17_p_net,
+    a => cmult2_p_net,
+    b => cmult1_p_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub_s_net
+    s => addsub1_s_net
   );
-  addsub1 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub10 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
     a_width => 16,
     b_arith => xlSigned,
     b_bin_pt => 16,
-    b_width => 17,
+    b_width => 25,
     c_has_c_out => 0,
     c_latency => 0,
-    c_output_width => 18,
+    c_output_width => 26,
     core_name0 => "fir_normal_c_addsub_v12_0_i1",
     extra_registers => 0,
     full_s_arith => 2,
-    full_s_width => 18,
+    full_s_width => 26,
     latency => 0,
     overflow => 1,
     quantization => 1,
     s_arith => xlSigned,
     s_bin_pt => 16,
-    s_width => 18
+    s_width => 26
   )
   port map (
     clr => '0',
     en => "1",
-    a => cmult15_p_net,
-    b => addsub_s_net,
+    a => cmult11_p_net,
+    b => addsub9_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub1_s_net
+    s => addsub10_s_net
   );
-  addsub10 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub11 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -157,13 +158,13 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult6_p_net,
-    b => addsub9_s_net,
+    a => cmult12_p_net,
+    b => addsub10_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub10_s_net
+    s => addsub11_s_net
   );
-  addsub11 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub12 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -188,13 +189,13 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult5_p_net,
-    b => addsub10_s_net,
+    a => cmult13_p_net,
+    b => addsub11_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub11_s_net
+    s => addsub12_s_net
   );
-  addsub12 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub13 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -219,13 +220,13 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult4_p_net,
-    b => addsub11_s_net,
+    a => cmult14_p_net,
+    b => addsub12_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub12_s_net
+    s => addsub13_s_net
   );
-  addsub13 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub14 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -250,13 +251,13 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult3_p_net,
-    b => addsub12_s_net,
+    a => cmult15_p_net,
+    b => addsub13_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub13_s_net
+    s => addsub14_s_net
   );
-  addsub14 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub15 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -281,13 +282,13 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult2_p_net,
-    b => addsub13_s_net,
+    a => cmult16_p_net,
+    b => addsub14_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub14_s_net
+    s => addsub15_s_net
   );
-  addsub15 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub16 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -312,13 +313,44 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult1_p_net,
-    b => addsub14_s_net,
+    a => cmult17_p_net,
+    b => addsub15_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub15_s_net
+    s => addsub16_s_net
   );
   addsub2 : entity xil_defaultlib.fir_normal_xladdsub 
+  generic map (
+    a_arith => xlSigned,
+    a_bin_pt => 16,
+    a_width => 16,
+    b_arith => xlSigned,
+    b_bin_pt => 16,
+    b_width => 17,
+    c_has_c_out => 0,
+    c_latency => 0,
+    c_output_width => 18,
+    core_name0 => "fir_normal_c_addsub_v12_0_i8",
+    extra_registers => 0,
+    full_s_arith => 2,
+    full_s_width => 18,
+    latency => 0,
+    overflow => 1,
+    quantization => 1,
+    s_arith => xlSigned,
+    s_bin_pt => 16,
+    s_width => 18
+  )
+  port map (
+    clr => '0',
+    en => "1",
+    a => cmult3_p_net,
+    b => addsub1_s_net,
+    clk => clk_net,
+    ce => ce_net,
+    s => addsub2_s_net
+  );
+  addsub3 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -329,7 +361,7 @@ begin
     c_has_c_out => 0,
     c_latency => 0,
     c_output_width => 19,
-    core_name0 => "fir_normal_c_addsub_v12_0_i8",
+    core_name0 => "fir_normal_c_addsub_v12_0_i9",
     extra_registers => 0,
     full_s_arith => 2,
     full_s_width => 19,
@@ -343,13 +375,13 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult14_p_net,
-    b => addsub1_s_net,
+    a => cmult4_p_net,
+    b => addsub2_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub2_s_net
+    s => addsub3_s_net
   );
-  addsub3 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub4 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -360,7 +392,7 @@ begin
     c_has_c_out => 0,
     c_latency => 0,
     c_output_width => 20,
-    core_name0 => "fir_normal_c_addsub_v12_0_i9",
+    core_name0 => "fir_normal_c_addsub_v12_0_i10",
     extra_registers => 0,
     full_s_arith => 2,
     full_s_width => 20,
@@ -374,13 +406,13 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult13_p_net,
-    b => addsub2_s_net,
+    a => cmult5_p_net,
+    b => addsub3_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub3_s_net
+    s => addsub4_s_net
   );
-  addsub4 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub5 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -391,7 +423,7 @@ begin
     c_has_c_out => 0,
     c_latency => 0,
     c_output_width => 21,
-    core_name0 => "fir_normal_c_addsub_v12_0_i10",
+    core_name0 => "fir_normal_c_addsub_v12_0_i11",
     extra_registers => 0,
     full_s_arith => 2,
     full_s_width => 21,
@@ -405,13 +437,13 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult12_p_net,
-    b => addsub3_s_net,
+    a => cmult6_p_net,
+    b => addsub4_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub4_s_net
+    s => addsub5_s_net
   );
-  addsub5 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub6 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -422,7 +454,7 @@ begin
     c_has_c_out => 0,
     c_latency => 0,
     c_output_width => 22,
-    core_name0 => "fir_normal_c_addsub_v12_0_i11",
+    core_name0 => "fir_normal_c_addsub_v12_0_i12",
     extra_registers => 0,
     full_s_arith => 2,
     full_s_width => 22,
@@ -436,13 +468,13 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult11_p_net,
-    b => addsub4_s_net,
+    a => cmult7_p_net,
+    b => addsub5_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub5_s_net
+    s => addsub6_s_net
   );
-  addsub6 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub7 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -453,7 +485,7 @@ begin
     c_has_c_out => 0,
     c_latency => 0,
     c_output_width => 23,
-    core_name0 => "fir_normal_c_addsub_v12_0_i12",
+    core_name0 => "fir_normal_c_addsub_v12_0_i13",
     extra_registers => 0,
     full_s_arith => 2,
     full_s_width => 23,
@@ -467,13 +499,13 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult10_p_net,
-    b => addsub5_s_net,
+    a => cmult8_p_net,
+    b => addsub6_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub6_s_net
+    s => addsub7_s_net
   );
-  addsub7 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub8 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -484,7 +516,7 @@ begin
     c_has_c_out => 0,
     c_latency => 0,
     c_output_width => 24,
-    core_name0 => "fir_normal_c_addsub_v12_0_i13",
+    core_name0 => "fir_normal_c_addsub_v12_0_i14",
     extra_registers => 0,
     full_s_arith => 2,
     full_s_width => 24,
@@ -499,12 +531,12 @@ begin
     clr => '0',
     en => "1",
     a => cmult9_p_net,
-    b => addsub6_s_net,
+    b => addsub7_s_net,
     clk => clk_net,
     ce => ce_net,
-    s => addsub7_s_net
+    s => addsub8_s_net
   );
-  addsub8 : entity xil_defaultlib.fir_normal_xladdsub 
+  addsub9 : entity xil_defaultlib.fir_normal_xladdsub 
   generic map (
     a_arith => xlSigned,
     a_bin_pt => 16,
@@ -515,7 +547,7 @@ begin
     c_has_c_out => 0,
     c_latency => 0,
     c_output_width => 25,
-    core_name0 => "fir_normal_c_addsub_v12_0_i14",
+    core_name0 => "fir_normal_c_addsub_v12_0_i15",
     extra_registers => 0,
     full_s_arith => 2,
     full_s_width => 25,
@@ -529,38 +561,7 @@ begin
   port map (
     clr => '0',
     en => "1",
-    a => cmult8_p_net,
-    b => addsub7_s_net,
-    clk => clk_net,
-    ce => ce_net,
-    s => addsub8_s_net
-  );
-  addsub9 : entity xil_defaultlib.fir_normal_xladdsub 
-  generic map (
-    a_arith => xlSigned,
-    a_bin_pt => 16,
-    a_width => 16,
-    b_arith => xlSigned,
-    b_bin_pt => 16,
-    b_width => 25,
-    c_has_c_out => 0,
-    c_latency => 0,
-    c_output_width => 26,
-    core_name0 => "fir_normal_c_addsub_v12_0_i15",
-    extra_registers => 0,
-    full_s_arith => 2,
-    full_s_width => 26,
-    latency => 0,
-    overflow => 1,
-    quantization => 1,
-    s_arith => xlSigned,
-    s_bin_pt => 16,
-    s_width => 26
-  )
-  port map (
-    clr => '0',
-    en => "1",
-    a => cmult7_p_net,
+    a => cmult10_p_net,
     b => addsub8_s_net,
     clk => clk_net,
     ce => ce_net,
@@ -1247,6 +1248,36 @@ begin
     ce => ce_net,
     q => delay15_q_net
   );
+  delay16 : entity xil_defaultlib.fir_normal_xldelay 
+  generic map (
+    latency => 1,
+    reg_retiming => 0,
+    reset => 0,
+    width => 16
+  )
+  port map (
+    en => '1',
+    rst => '0',
+    d => gateway_in_net,
+    clk => clk_net,
+    ce => ce_net,
+    q => delay16_q_net
+  );
+  delay17 : entity xil_defaultlib.fir_normal_xldelay 
+  generic map (
+    latency => 1,
+    reg_retiming => 0,
+    reset => 0,
+    width => 32
+  )
+  port map (
+    en => '1',
+    rst => '0',
+    d => addsub16_s_net,
+    clk => clk_net,
+    ce => ce_net,
+    q => delay17_q_net
+  );
   delay2 : entity xil_defaultlib.fir_normal_xldelay 
   generic map (
     latency => 1,
@@ -1367,21 +1398,6 @@ begin
     ce => ce_net,
     q => delay9_q_net
   );
-  delay16 : entity xil_defaultlib.fir_normal_xldelay 
-  generic map (
-    latency => 1,
-    reg_retiming => 0,
-    reset => 0,
-    width => 16
-  )
-  port map (
-    en => '1',
-    rst => '0',
-    d => gateway_in_net,
-    clk => clk_net,
-    ce => ce_net,
-    q => delay16_q_net
-  );
 end structural;
 -- Generated from Simulink block 
 library IEEE;
@@ -1426,7 +1442,7 @@ entity fir_normal is
 end fir_normal;
 architecture structural of fir_normal is 
   attribute core_generation_info : string;
-  attribute core_generation_info of structural : architecture is "fir_normal,sysgen_core_2020_1,{,compilation=HDL Netlist,block_icon_display=Default,family=kintex7,part=xc7k325t,speed=-3,package=fbg676,synthesis_language=vhdl,hdl_library=xil_defaultlib,synthesis_strategy=Vivado Synthesis Defaults,implementation_strategy=Vivado Implementation Defaults,testbench=0,interface_doc=0,ce_clr=0,clock_period=10,system_simulink_period=1,waveform_viewer=0,axilite_interface=0,ip_catalog_plugin=0,hwcosim_burst_mode=0,simulation_time=19999,addsub=16,cmult=17,delay=17,}";
+  attribute core_generation_info of structural : architecture is "fir_normal,sysgen_core_2020_1,{,compilation=HDL Netlist,block_icon_display=Default,family=artix7,part=xc7a100t,speed=-1,package=ftg256,synthesis_language=vhdl,hdl_library=xil_defaultlib,synthesis_strategy=Vivado Synthesis Defaults,implementation_strategy=Vivado Implementation Defaults,testbench=0,interface_doc=0,ce_clr=0,clock_period=28,system_simulink_period=1,waveform_viewer=0,axilite_interface=0,ip_catalog_plugin=0,hwcosim_burst_mode=0,simulation_time=19999,addsub=16,cmult=17,delay=18,}";
   signal ce_1_net : std_logic;
   signal clk_1_net : std_logic;
 begin

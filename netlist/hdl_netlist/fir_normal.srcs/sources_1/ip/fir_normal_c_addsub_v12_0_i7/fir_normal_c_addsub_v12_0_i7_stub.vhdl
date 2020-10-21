@@ -1,13 +1,13 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Tue Oct 20 14:52:53 2020
--- Host        : ax401-3843 running 64-bit major release  (build 9200)
+-- Date        : Wed Oct 21 22:37:15 2020
+-- Host        : ax401-3487 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i7/fir_normal_c_addsub_v12_0_i7_stub.vhdl
+--               c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i7/fir_normal_c_addsub_v12_0_i7_stub.vhdl
 -- Design      : fir_normal_c_addsub_v12_0_i7
 -- Purpose     : Stub declaration of top-level module interface
--- Device      : xc7k325tfbg676-3
+-- Device      : xc7a100tftg256-1
 -- --------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

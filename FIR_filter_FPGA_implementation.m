@@ -93,5 +93,7 @@ plot(filtered_signal_sw);
 title('Hardware vs software filtered');
 legend('Hardware', 'Software');
 
+sound(filtered_signal_sw);
+
 %figure;
 %plot(SER_vect);

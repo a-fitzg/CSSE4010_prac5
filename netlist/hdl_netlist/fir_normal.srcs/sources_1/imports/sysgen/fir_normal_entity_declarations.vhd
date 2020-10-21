@@ -261,9 +261,9 @@ entity fir_normal_xladdsub is
 
  component fir_normal_c_addsub_v12_0_i1
     port ( 
-    a: in std_logic_vector(18 - 1 downto 0);
+    a: in std_logic_vector(26 - 1 downto 0);
     s: out std_logic_vector(c_output_width - 1 downto 0);
-    b: in std_logic_vector(18 - 1 downto 0) 
+    b: in std_logic_vector(26 - 1 downto 0) 
  		  ); 
  end component;
 
@@ -317,13 +317,21 @@ entity fir_normal_xladdsub is
 
  component fir_normal_c_addsub_v12_0_i8
     port ( 
+    a: in std_logic_vector(18 - 1 downto 0);
+    s: out std_logic_vector(c_output_width - 1 downto 0);
+    b: in std_logic_vector(18 - 1 downto 0) 
+ 		  ); 
+ end component;
+
+ component fir_normal_c_addsub_v12_0_i9
+    port ( 
     a: in std_logic_vector(19 - 1 downto 0);
     s: out std_logic_vector(c_output_width - 1 downto 0);
     b: in std_logic_vector(19 - 1 downto 0) 
  		  ); 
  end component;
 
- component fir_normal_c_addsub_v12_0_i9
+ component fir_normal_c_addsub_v12_0_i10
     port ( 
     a: in std_logic_vector(20 - 1 downto 0);
     s: out std_logic_vector(c_output_width - 1 downto 0);
@@ -331,7 +339,7 @@ entity fir_normal_xladdsub is
  		  ); 
  end component;
 
- component fir_normal_c_addsub_v12_0_i10
+ component fir_normal_c_addsub_v12_0_i11
     port ( 
     a: in std_logic_vector(21 - 1 downto 0);
     s: out std_logic_vector(c_output_width - 1 downto 0);
@@ -339,7 +347,7 @@ entity fir_normal_xladdsub is
  		  ); 
  end component;
 
- component fir_normal_c_addsub_v12_0_i11
+ component fir_normal_c_addsub_v12_0_i12
     port ( 
     a: in std_logic_vector(22 - 1 downto 0);
     s: out std_logic_vector(c_output_width - 1 downto 0);
@@ -347,7 +355,7 @@ entity fir_normal_xladdsub is
  		  ); 
  end component;
 
- component fir_normal_c_addsub_v12_0_i12
+ component fir_normal_c_addsub_v12_0_i13
     port ( 
     a: in std_logic_vector(23 - 1 downto 0);
     s: out std_logic_vector(c_output_width - 1 downto 0);
@@ -355,7 +363,7 @@ entity fir_normal_xladdsub is
  		  ); 
  end component;
 
- component fir_normal_c_addsub_v12_0_i13
+ component fir_normal_c_addsub_v12_0_i14
     port ( 
     a: in std_logic_vector(24 - 1 downto 0);
     s: out std_logic_vector(c_output_width - 1 downto 0);
@@ -363,19 +371,11 @@ entity fir_normal_xladdsub is
  		  ); 
  end component;
 
- component fir_normal_c_addsub_v12_0_i14
+ component fir_normal_c_addsub_v12_0_i15
     port ( 
     a: in std_logic_vector(25 - 1 downto 0);
     s: out std_logic_vector(c_output_width - 1 downto 0);
     b: in std_logic_vector(25 - 1 downto 0) 
- 		  ); 
- end component;
-
- component fir_normal_c_addsub_v12_0_i15
-    port ( 
-    a: in std_logic_vector(26 - 1 downto 0);
-    s: out std_logic_vector(c_output_width - 1 downto 0);
-    b: in std_logic_vector(26 - 1 downto 0) 
  		  ); 
  end component;
 

@@ -75,12 +75,12 @@ set params_list [list]
 lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i1}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
-lappend params_list CONFIG.A_Width {18}
+lappend params_list CONFIG.A_Width {26}
 lappend params_list CONFIG.Add_Mode {Add}
 lappend params_list CONFIG.B_Constant {false}
 lappend params_list CONFIG.B_Type {Signed}
 lappend params_list CONFIG.B_Value {0}
-lappend params_list CONFIG.B_Width {18}
+lappend params_list CONFIG.B_Width {26}
 lappend params_list CONFIG.Borrow_Sense {Active_Low}
 lappend params_list CONFIG.Bypass {false}
 lappend params_list CONFIG.Bypass_CE_Priority {Bypass_Overrides_CE}
@@ -90,7 +90,7 @@ lappend params_list CONFIG.C_In {false}
 lappend params_list CONFIG.C_Out {false}
 lappend params_list CONFIG.Implementation {Fabric}
 lappend params_list CONFIG.Latency {0}
-lappend params_list CONFIG.Out_Width {18}
+lappend params_list CONFIG.Out_Width {26}
 lappend params_list CONFIG.SCLR {false}
 lappend params_list CONFIG.SINIT {false}
 lappend params_list CONFIG.SINIT_Value {0}
@@ -313,6 +313,40 @@ set params_list [list]
 lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i8}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
+lappend params_list CONFIG.A_Width {18}
+lappend params_list CONFIG.Add_Mode {Add}
+lappend params_list CONFIG.B_Constant {false}
+lappend params_list CONFIG.B_Type {Signed}
+lappend params_list CONFIG.B_Value {0}
+lappend params_list CONFIG.B_Width {18}
+lappend params_list CONFIG.Borrow_Sense {Active_Low}
+lappend params_list CONFIG.Bypass {false}
+lappend params_list CONFIG.Bypass_CE_Priority {Bypass_Overrides_CE}
+lappend params_list CONFIG.Bypass_Sense {Active_Low}
+lappend params_list CONFIG.CE {false}
+lappend params_list CONFIG.C_In {false}
+lappend params_list CONFIG.C_Out {false}
+lappend params_list CONFIG.Implementation {Fabric}
+lappend params_list CONFIG.Latency {0}
+lappend params_list CONFIG.Out_Width {18}
+lappend params_list CONFIG.SCLR {false}
+lappend params_list CONFIG.SINIT {false}
+lappend params_list CONFIG.SINIT_Value {0}
+lappend params_list CONFIG.SSET {false}
+lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
+lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
+
+set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i8]
+}
+
+
+set existingipslist [get_ips]
+if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i9] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i9
+set params_list [list]
+lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i9}
+lappend params_list CONFIG.AINIT_Value {0}
+lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {19}
 lappend params_list CONFIG.Add_Mode {Add}
 lappend params_list CONFIG.B_Constant {false}
@@ -336,15 +370,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i8]
+set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i9]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i9] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i9
+if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i10] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i10
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i9}
+lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i10}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {20}
@@ -370,15 +404,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i9]
+set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i10]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i10] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i10
+if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i11] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i11
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i10}
+lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i11}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {21}
@@ -404,15 +438,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i10]
+set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i11]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i11] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i11
+if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i12] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i12
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i11}
+lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i12}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {22}
@@ -438,15 +472,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i11]
+set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i12]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i12] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i12
+if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i13] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i13
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i12}
+lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i13}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {23}
@@ -472,15 +506,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i12]
+set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i13]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i13] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i13
+if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i14] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i14
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i13}
+lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i14}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {24}
@@ -506,15 +540,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i13]
+set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i14]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i14] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i14
+if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i15] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i15
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i14}
+lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i15}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {25}
@@ -533,40 +567,6 @@ lappend params_list CONFIG.C_Out {false}
 lappend params_list CONFIG.Implementation {Fabric}
 lappend params_list CONFIG.Latency {0}
 lappend params_list CONFIG.Out_Width {25}
-lappend params_list CONFIG.SCLR {false}
-lappend params_list CONFIG.SINIT {false}
-lappend params_list CONFIG.SINIT_Value {0}
-lappend params_list CONFIG.SSET {false}
-lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
-lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
-
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i14]
-}
-
-
-set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i15] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i15
-set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i15}
-lappend params_list CONFIG.AINIT_Value {0}
-lappend params_list CONFIG.A_Type {Signed}
-lappend params_list CONFIG.A_Width {26}
-lappend params_list CONFIG.Add_Mode {Add}
-lappend params_list CONFIG.B_Constant {false}
-lappend params_list CONFIG.B_Type {Signed}
-lappend params_list CONFIG.B_Value {0}
-lappend params_list CONFIG.B_Width {26}
-lappend params_list CONFIG.Borrow_Sense {Active_Low}
-lappend params_list CONFIG.Bypass {false}
-lappend params_list CONFIG.Bypass_CE_Priority {Bypass_Overrides_CE}
-lappend params_list CONFIG.Bypass_Sense {Active_Low}
-lappend params_list CONFIG.CE {false}
-lappend params_list CONFIG.C_In {false}
-lappend params_list CONFIG.C_Out {false}
-lappend params_list CONFIG.Implementation {Fabric}
-lappend params_list CONFIG.Latency {0}
-lappend params_list CONFIG.Out_Width {26}
 lappend params_list CONFIG.SCLR {false}
 lappend params_list CONFIG.SINIT {false}
 lappend params_list CONFIG.SINIT_Value {0}

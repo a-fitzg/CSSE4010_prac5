@@ -4,7 +4,7 @@
 {
    'Design_Information' => [
      { 
-        'PART' => 'xc7k325tfbg676-3',
+        'PART' => 'xc7a100tftg256-1',
         'Vivado_Stage' => 'Post Synthesis',
         'Top_Module' => 'fir_normal',
         'HDL_Language' => 'vhdl',
@@ -13,18 +13,18 @@
    ],
    'Device_Resources' => [
      { 
-        'BRAMs' => '445',
-        'DSPs' => '840',
-        'Registers' => '407600',
-        'LUTs' => '203800',
+        'BRAMs' => '135',
+        'DSPs' => '240',
+        'Registers' => '126800',
+        'LUTs' => '63400',
      },
    ],
    'Resource_Utilization_Data' => [
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_73',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub',
-          'Cell_Name' => 'fir_normal_struct/addsub',
+          'Line_Num' => 'Line_74',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub1',
+          'Cell_Name' => 'fir_normal_struct/addsub1',
           'Primitives' => [ 
                {
                     'CARRY4' => 5,
@@ -35,191 +35,9 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_104',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub1',
-          'Cell_Name' => 'fir_normal_struct/addsub1',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 5,
-                    'LUT2' => 18,
-                    'Total_LUTs' => 18,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_135',
+          'Line_Num' => 'Line_105',
           'Hier_Name' => 'fir_normal.fir_normal_struct.addsub10',
           'Cell_Name' => 'fir_normal_struct/addsub10',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 7,
-                    'LUT2' => 27,
-                    'Total_LUTs' => 27,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_166',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub11',
-          'Cell_Name' => 'fir_normal_struct/addsub11',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 7,
-                    'LUT2' => 28,
-                    'Total_LUTs' => 28,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_197',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub12',
-          'Cell_Name' => 'fir_normal_struct/addsub12',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 8,
-                    'LUT2' => 29,
-                    'Total_LUTs' => 29,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_228',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub13',
-          'Cell_Name' => 'fir_normal_struct/addsub13',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 8,
-                    'LUT2' => 30,
-                    'Total_LUTs' => 30,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_259',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub14',
-          'Cell_Name' => 'fir_normal_struct/addsub14',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 8,
-                    'LUT2' => 31,
-                    'Total_LUTs' => 31,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_290',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub15',
-          'Cell_Name' => 'fir_normal_struct/addsub15',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 8,
-                    'LUT2' => 32,
-                    'Total_LUTs' => 32,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_321',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub2',
-          'Cell_Name' => 'fir_normal_struct/addsub2',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 5,
-                    'LUT2' => 19,
-                    'Total_LUTs' => 19,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_352',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub3',
-          'Cell_Name' => 'fir_normal_struct/addsub3',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 5,
-                    'LUT2' => 20,
-                    'Total_LUTs' => 20,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_383',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub4',
-          'Cell_Name' => 'fir_normal_struct/addsub4',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 6,
-                    'LUT2' => 21,
-                    'Total_LUTs' => 21,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_414',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub5',
-          'Cell_Name' => 'fir_normal_struct/addsub5',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 6,
-                    'LUT2' => 22,
-                    'Total_LUTs' => 22,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_445',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub6',
-          'Cell_Name' => 'fir_normal_struct/addsub6',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 6,
-                    'LUT2' => 23,
-                    'Total_LUTs' => 23,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_476',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub7',
-          'Cell_Name' => 'fir_normal_struct/addsub7',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 6,
-                    'LUT2' => 24,
-                    'Total_LUTs' => 24,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_507',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub8',
-          'Cell_Name' => 'fir_normal_struct/addsub8',
-          'Primitives' => [ 
-               {
-                    'CARRY4' => 7,
-                    'LUT2' => 25,
-                    'Total_LUTs' => 25,
-               },
-          ], 
-     },
-     {
-          'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_538',
-          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub9',
-          'Cell_Name' => 'fir_normal_struct/addsub9',
           'Primitives' => [ 
                {
                     'CARRY4' => 7,
@@ -230,7 +48,189 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_569',
+          'Line_Num' => 'Line_136',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub11',
+          'Cell_Name' => 'fir_normal_struct/addsub11',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 7,
+                    'LUT2' => 27,
+                    'Total_LUTs' => 27,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_167',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub12',
+          'Cell_Name' => 'fir_normal_struct/addsub12',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 7,
+                    'LUT2' => 28,
+                    'Total_LUTs' => 28,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_198',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub13',
+          'Cell_Name' => 'fir_normal_struct/addsub13',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 8,
+                    'LUT2' => 29,
+                    'Total_LUTs' => 29,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_229',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub14',
+          'Cell_Name' => 'fir_normal_struct/addsub14',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 8,
+                    'LUT2' => 30,
+                    'Total_LUTs' => 30,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_260',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub15',
+          'Cell_Name' => 'fir_normal_struct/addsub15',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 8,
+                    'LUT2' => 31,
+                    'Total_LUTs' => 31,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_291',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub16',
+          'Cell_Name' => 'fir_normal_struct/addsub16',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 8,
+                    'LUT2' => 32,
+                    'Total_LUTs' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_322',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub2',
+          'Cell_Name' => 'fir_normal_struct/addsub2',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 5,
+                    'LUT2' => 18,
+                    'Total_LUTs' => 18,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_353',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub3',
+          'Cell_Name' => 'fir_normal_struct/addsub3',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 5,
+                    'LUT2' => 19,
+                    'Total_LUTs' => 19,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_384',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub4',
+          'Cell_Name' => 'fir_normal_struct/addsub4',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 5,
+                    'LUT2' => 20,
+                    'Total_LUTs' => 20,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_415',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub5',
+          'Cell_Name' => 'fir_normal_struct/addsub5',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 6,
+                    'LUT2' => 21,
+                    'Total_LUTs' => 21,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_446',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub6',
+          'Cell_Name' => 'fir_normal_struct/addsub6',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 6,
+                    'LUT2' => 22,
+                    'Total_LUTs' => 22,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_477',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub7',
+          'Cell_Name' => 'fir_normal_struct/addsub7',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 6,
+                    'LUT2' => 23,
+                    'Total_LUTs' => 23,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_508',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub8',
+          'Cell_Name' => 'fir_normal_struct/addsub8',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 6,
+                    'LUT2' => 24,
+                    'Total_LUTs' => 24,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_539',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.addsub9',
+          'Cell_Name' => 'fir_normal_struct/addsub9',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 7,
+                    'LUT2' => 25,
+                    'Total_LUTs' => 25,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_570',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult1',
           'Cell_Name' => 'fir_normal_struct/cmult1',
           'Primitives' => [ 
@@ -248,7 +248,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_602',
+          'Line_Num' => 'Line_603',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult10',
           'Cell_Name' => 'fir_normal_struct/cmult10',
           'Primitives' => [ 
@@ -265,7 +265,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_635',
+          'Line_Num' => 'Line_636',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult11',
           'Cell_Name' => 'fir_normal_struct/cmult11',
           'Primitives' => [ 
@@ -283,7 +283,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_668',
+          'Line_Num' => 'Line_669',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult12',
           'Cell_Name' => 'fir_normal_struct/cmult12',
           'Primitives' => [ 
@@ -300,16 +300,16 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_701',
+          'Line_Num' => 'Line_702',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult13',
           'Cell_Name' => 'fir_normal_struct/cmult13',
           'Primitives' => [ 
                {
+                    'LUT5' => 22,
                     'LUT2' => 12,
                     'LUT3' => 2,
                     'LUT4' => 4,
                     'LUT6' => 22,
-                    'LUT5' => 22,
                     'CARRY4' => 9,
                     'Total_LUTs' => 62,
                },
@@ -317,15 +317,15 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_734',
+          'Line_Num' => 'Line_735',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult14',
           'Cell_Name' => 'fir_normal_struct/cmult14',
           'Primitives' => [ 
                {
+                    'LUT5' => 18,
                     'LUT2' => 9,
                     'LUT3' => 2,
                     'LUT4' => 5,
-                    'LUT5' => 18,
                     'LUT6' => 16,
                     'CARRY4' => 7,
                     'Total_LUTs' => 50,
@@ -334,7 +334,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_767',
+          'Line_Num' => 'Line_768',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult15',
           'Cell_Name' => 'fir_normal_struct/cmult15',
           'Primitives' => [ 
@@ -352,7 +352,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_800',
+          'Line_Num' => 'Line_801',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult16',
           'Cell_Name' => 'fir_normal_struct/cmult16',
           'Primitives' => [ 
@@ -369,7 +369,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_833',
+          'Line_Num' => 'Line_834',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult17',
           'Cell_Name' => 'fir_normal_struct/cmult17',
           'Primitives' => [ 
@@ -387,7 +387,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_866',
+          'Line_Num' => 'Line_867',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult2',
           'Cell_Name' => 'fir_normal_struct/cmult2',
           'Primitives' => [ 
@@ -404,7 +404,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_899',
+          'Line_Num' => 'Line_900',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult3',
           'Cell_Name' => 'fir_normal_struct/cmult3',
           'Primitives' => [ 
@@ -422,15 +422,15 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_932',
+          'Line_Num' => 'Line_933',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult4',
           'Cell_Name' => 'fir_normal_struct/cmult4',
           'Primitives' => [ 
                {
-                    'LUT5' => 18,
                     'LUT2' => 9,
                     'LUT3' => 2,
                     'LUT4' => 5,
+                    'LUT5' => 18,
                     'LUT6' => 16,
                     'CARRY4' => 7,
                     'Total_LUTs' => 50,
@@ -439,7 +439,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_965',
+          'Line_Num' => 'Line_966',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult5',
           'Cell_Name' => 'fir_normal_struct/cmult5',
           'Primitives' => [ 
@@ -456,7 +456,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_998',
+          'Line_Num' => 'Line_999',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult6',
           'Cell_Name' => 'fir_normal_struct/cmult6',
           'Primitives' => [ 
@@ -473,7 +473,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1031',
+          'Line_Num' => 'Line_1032',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult7',
           'Cell_Name' => 'fir_normal_struct/cmult7',
           'Primitives' => [ 
@@ -491,7 +491,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1064',
+          'Line_Num' => 'Line_1065',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult8',
           'Cell_Name' => 'fir_normal_struct/cmult8',
           'Primitives' => [ 
@@ -508,7 +508,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1097',
+          'Line_Num' => 'Line_1098',
           'Hier_Name' => 'fir_normal.fir_normal_struct.cmult9',
           'Cell_Name' => 'fir_normal_struct/cmult9',
           'Primitives' => [ 
@@ -525,7 +525,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1130',
+          'Line_Num' => 'Line_1131',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay',
           'Cell_Name' => 'fir_normal_struct/delay',
           'Primitives' => [ 
@@ -537,7 +537,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1145',
+          'Line_Num' => 'Line_1146',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay1',
           'Cell_Name' => 'fir_normal_struct/delay1',
           'Primitives' => [ 
@@ -549,7 +549,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1160',
+          'Line_Num' => 'Line_1161',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay10',
           'Cell_Name' => 'fir_normal_struct/delay10',
           'Primitives' => [ 
@@ -561,7 +561,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1175',
+          'Line_Num' => 'Line_1176',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay11',
           'Cell_Name' => 'fir_normal_struct/delay11',
           'Primitives' => [ 
@@ -573,7 +573,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1190',
+          'Line_Num' => 'Line_1191',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay12',
           'Cell_Name' => 'fir_normal_struct/delay12',
           'Primitives' => [ 
@@ -585,7 +585,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1205',
+          'Line_Num' => 'Line_1206',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay13',
           'Cell_Name' => 'fir_normal_struct/delay13',
           'Primitives' => [ 
@@ -597,7 +597,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1220',
+          'Line_Num' => 'Line_1221',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay14',
           'Cell_Name' => 'fir_normal_struct/delay14',
           'Primitives' => [ 
@@ -609,7 +609,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1235',
+          'Line_Num' => 'Line_1236',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay15',
           'Cell_Name' => 'fir_normal_struct/delay15',
           'Primitives' => [ 
@@ -621,7 +621,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1370',
+          'Line_Num' => 'Line_1251',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay16',
           'Cell_Name' => 'fir_normal_struct/delay16',
           'Primitives' => [ 
@@ -633,7 +633,19 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1250',
+          'Line_Num' => 'Line_1266',
+          'Hier_Name' => 'fir_normal.fir_normal_struct.delay17',
+          'Cell_Name' => 'fir_normal_struct/delay17',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 32,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_normal.vhd',
+          'Line_Num' => 'Line_1281',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay2',
           'Cell_Name' => 'fir_normal_struct/delay2',
           'Primitives' => [ 
@@ -645,7 +657,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1265',
+          'Line_Num' => 'Line_1296',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay3',
           'Cell_Name' => 'fir_normal_struct/delay3',
           'Primitives' => [ 
@@ -657,7 +669,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1280',
+          'Line_Num' => 'Line_1311',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay4',
           'Cell_Name' => 'fir_normal_struct/delay4',
           'Primitives' => [ 
@@ -669,7 +681,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1295',
+          'Line_Num' => 'Line_1326',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay5',
           'Cell_Name' => 'fir_normal_struct/delay5',
           'Primitives' => [ 
@@ -681,7 +693,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1310',
+          'Line_Num' => 'Line_1341',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay6',
           'Cell_Name' => 'fir_normal_struct/delay6',
           'Primitives' => [ 
@@ -693,7 +705,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1325',
+          'Line_Num' => 'Line_1356',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay7',
           'Cell_Name' => 'fir_normal_struct/delay7',
           'Primitives' => [ 
@@ -705,7 +717,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1340',
+          'Line_Num' => 'Line_1371',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay8',
           'Cell_Name' => 'fir_normal_struct/delay8',
           'Primitives' => [ 
@@ -717,7 +729,7 @@
      },
      {
           'File_Name' => 'fir_normal.vhd',
-          'Line_Num' => 'Line_1355',
+          'Line_Num' => 'Line_1386',
           'Hier_Name' => 'fir_normal.fir_normal_struct.delay9',
           'Cell_Name' => 'fir_normal_struct/delay9',
           'Primitives' => [ 
@@ -741,9 +753,9 @@
                     'LUT5' => 348,
                     'LUT6' => 325,
                     'LUT1' => 6,
-                    'FDRE' => 272,
+                    'FDRE' => 304,
                     'Total_LUTs' => 1410,
-                    'Total_Registers' => 272,
+                    'Total_Registers' => 304,
                },
           ],
      },

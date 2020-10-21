@@ -2,12 +2,12 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Tue Oct 20 14:45:05 2020
-# Process ID: 14868
-# Current directory: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist
+# Start of session at: Wed Oct 21 22:28:27 2020
+# Process ID: 16048
+# Current directory: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist
 # Command line: vivado.exe -mode batch -source ProjectGeneration.tcl -notrace
-# Log file: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/vivado.log
-# Journal file: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist\vivado.jou
+# Log file: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/vivado.log
+# Journal file: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist\vivado.jou
 #-----------------------------------------------------------
 source ProjectGeneration.tcl -notrace
 WARNING: [Coretcl 2-176] No IPs found
@@ -21,7 +21,7 @@ WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'fir_normal_c_addsub_v12_0_i0'
 WARNING: [IP_Flow 19-4832] The IP name 'fir_normal_c_addsub_v12_0_i1' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
 WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fir_normal_c_addsub_v12_0_i1' to 'fir_normal_c_addsub_v12_0_i1' is not allowed and is ignored.
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i1'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '00000000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i1'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'fir_normal_c_addsub_v12_0_i1'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'fir_normal_c_addsub_v12_0_i1'
 WARNING: [IP_Flow 19-4832] The IP name 'fir_normal_c_addsub_v12_0_i2' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
@@ -56,42 +56,42 @@ WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'fir_normal_c_addsub_v12_0_i7'
 WARNING: [IP_Flow 19-4832] The IP name 'fir_normal_c_addsub_v12_0_i8' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
 WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fir_normal_c_addsub_v12_0_i8' to 'fir_normal_c_addsub_v12_0_i8' is not allowed and is ignored.
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '0000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i8'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i8'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'fir_normal_c_addsub_v12_0_i8'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'fir_normal_c_addsub_v12_0_i8'
 WARNING: [IP_Flow 19-4832] The IP name 'fir_normal_c_addsub_v12_0_i9' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
 WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fir_normal_c_addsub_v12_0_i9' to 'fir_normal_c_addsub_v12_0_i9' is not allowed and is ignored.
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '00000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i9'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '0000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i9'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'fir_normal_c_addsub_v12_0_i9'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'fir_normal_c_addsub_v12_0_i9'
 WARNING: [IP_Flow 19-4832] The IP name 'fir_normal_c_addsub_v12_0_i10' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
 WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fir_normal_c_addsub_v12_0_i10' to 'fir_normal_c_addsub_v12_0_i10' is not allowed and is ignored.
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i10'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '00000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i10'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'fir_normal_c_addsub_v12_0_i10'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'fir_normal_c_addsub_v12_0_i10'
 WARNING: [IP_Flow 19-4832] The IP name 'fir_normal_c_addsub_v12_0_i11' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
 WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fir_normal_c_addsub_v12_0_i11' to 'fir_normal_c_addsub_v12_0_i11' is not allowed and is ignored.
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '0000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i11'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i11'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'fir_normal_c_addsub_v12_0_i11'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'fir_normal_c_addsub_v12_0_i11'
 WARNING: [IP_Flow 19-4832] The IP name 'fir_normal_c_addsub_v12_0_i12' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
 WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fir_normal_c_addsub_v12_0_i12' to 'fir_normal_c_addsub_v12_0_i12' is not allowed and is ignored.
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '00000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i12'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '0000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i12'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'fir_normal_c_addsub_v12_0_i12'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'fir_normal_c_addsub_v12_0_i12'
 WARNING: [IP_Flow 19-4832] The IP name 'fir_normal_c_addsub_v12_0_i13' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
 WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fir_normal_c_addsub_v12_0_i13' to 'fir_normal_c_addsub_v12_0_i13' is not allowed and is ignored.
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '000000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i13'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '00000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i13'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'fir_normal_c_addsub_v12_0_i13'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'fir_normal_c_addsub_v12_0_i13'
 WARNING: [IP_Flow 19-4832] The IP name 'fir_normal_c_addsub_v12_0_i14' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
 WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fir_normal_c_addsub_v12_0_i14' to 'fir_normal_c_addsub_v12_0_i14' is not allowed and is ignored.
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '0000000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i14'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '000000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i14'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'fir_normal_c_addsub_v12_0_i14'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'fir_normal_c_addsub_v12_0_i14'
 WARNING: [IP_Flow 19-4832] The IP name 'fir_normal_c_addsub_v12_0_i15' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
 WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'fir_normal_c_addsub_v12_0_i15' to 'fir_normal_c_addsub_v12_0_i15' is not allowed and is ignored.
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '00000000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i15'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '0000000000000000000000000' to '0' has been ignored for IP 'fir_normal_c_addsub_v12_0_i15'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'fir_normal_c_addsub_v12_0_i15'
 WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'fir_normal_c_addsub_v12_0_i15'
 WARNING: [IP_Flow 19-4832] The IP name 'fir_normal_mult_gen_v12_0_i0' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
@@ -155,37 +155,37 @@ INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fir_normal_mult_ge
 INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fir_normal_mult_gen_v12_0_i6'...
 INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fir_normal_mult_gen_v12_0_i7'...
 INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fir_normal_mult_gen_v12_0_i8'...
-[Tue Oct 20 14:45:27 2020] Launched fir_normal_c_addsub_v12_0_i15_synth_1, fir_normal_c_addsub_v12_0_i10_synth_1, fir_normal_c_addsub_v12_0_i11_synth_1, fir_normal_c_addsub_v12_0_i12_synth_1, fir_normal_c_addsub_v12_0_i14_synth_1, fir_normal_c_addsub_v12_0_i13_synth_1, fir_normal_c_addsub_v12_0_i9_synth_1, fir_normal_c_addsub_v12_0_i5_synth_1, fir_normal_c_addsub_v12_0_i7_synth_1, fir_normal_c_addsub_v12_0_i8_synth_1, fir_normal_c_addsub_v12_0_i4_synth_1, fir_normal_c_addsub_v12_0_i6_synth_1, fir_normal_mult_gen_v12_0_i4_synth_1, fir_normal_mult_gen_v12_0_i3_synth_1, fir_normal_mult_gen_v12_0_i0_synth_1, fir_normal_mult_gen_v12_0_i1_synth_1, fir_normal_mult_gen_v12_0_i2_synth_1, fir_normal_c_addsub_v12_0_i0_synth_1, fir_normal_c_addsub_v12_0_i1_synth_1, fir_normal_c_addsub_v12_0_i3_synth_1, fir_normal_c_addsub_v12_0_i2_synth_1, fir_normal_mult_gen_v12_0_i8_synth_1, fir_normal_mult_gen_v12_0_i7_synth_1, fir_normal_mult_gen_v12_0_i6_synth_1, fir_normal_mult_gen_v12_0_i5_synth_1...
+[Wed Oct 21 22:28:51 2020] Launched fir_normal_c_addsub_v12_0_i4_synth_1, fir_normal_c_addsub_v12_0_i1_synth_1, fir_normal_c_addsub_v12_0_i3_synth_1, fir_normal_c_addsub_v12_0_i2_synth_1, fir_normal_c_addsub_v12_0_i0_synth_1, fir_normal_c_addsub_v12_0_i8_synth_1, fir_normal_c_addsub_v12_0_i5_synth_1, fir_normal_c_addsub_v12_0_i10_synth_1, fir_normal_c_addsub_v12_0_i6_synth_1, fir_normal_c_addsub_v12_0_i9_synth_1, fir_normal_c_addsub_v12_0_i7_synth_1, fir_normal_c_addsub_v12_0_i15_synth_1, fir_normal_c_addsub_v12_0_i13_synth_1, fir_normal_c_addsub_v12_0_i14_synth_1, fir_normal_c_addsub_v12_0_i12_synth_1, fir_normal_c_addsub_v12_0_i11_synth_1, fir_normal_mult_gen_v12_0_i1_synth_1, fir_normal_mult_gen_v12_0_i0_synth_1, fir_normal_mult_gen_v12_0_i2_synth_1, fir_normal_mult_gen_v12_0_i3_synth_1, fir_normal_mult_gen_v12_0_i4_synth_1, fir_normal_mult_gen_v12_0_i5_synth_1, fir_normal_mult_gen_v12_0_i6_synth_1, fir_normal_mult_gen_v12_0_i8_synth_1, fir_normal_mult_gen_v12_0_i7_synth_1...
 Run output will be captured here:
-fir_normal_c_addsub_v12_0_i15_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i15_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i10_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i10_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i11_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i11_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i12_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i12_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i14_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i14_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i13_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i13_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i9_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i9_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i5_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i5_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i7_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i7_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i8_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i8_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i4_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i4_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i6_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/runme.log
-fir_normal_mult_gen_v12_0_i4_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i4_synth_1/runme.log
-fir_normal_mult_gen_v12_0_i3_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i3_synth_1/runme.log
-fir_normal_mult_gen_v12_0_i0_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i0_synth_1/runme.log
-fir_normal_mult_gen_v12_0_i1_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i1_synth_1/runme.log
-fir_normal_mult_gen_v12_0_i2_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i2_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i0_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i0_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i1_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i1_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i3_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i3_synth_1/runme.log
-fir_normal_c_addsub_v12_0_i2_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i2_synth_1/runme.log
-fir_normal_mult_gen_v12_0_i8_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i8_synth_1/runme.log
-fir_normal_mult_gen_v12_0_i7_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i7_synth_1/runme.log
-fir_normal_mult_gen_v12_0_i6_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i6_synth_1/runme.log
-fir_normal_mult_gen_v12_0_i5_synth_1: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i5_synth_1/runme.log
-[Tue Oct 20 14:45:27 2020] Launched synth_1...
-Run output will be captured here: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/runme.log
-launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1018.379 ; gain = 0.000
-[Tue Oct 20 14:45:27 2020] Waiting for synth_1 to finish...
+fir_normal_c_addsub_v12_0_i4_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i4_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i1_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i1_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i3_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i3_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i2_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i2_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i0_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i0_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i8_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i8_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i5_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i5_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i10_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i10_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i6_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i6_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i9_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i9_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i7_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i7_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i15_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i15_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i13_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i13_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i14_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i14_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i12_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i12_synth_1/runme.log
+fir_normal_c_addsub_v12_0_i11_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_c_addsub_v12_0_i11_synth_1/runme.log
+fir_normal_mult_gen_v12_0_i1_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i1_synth_1/runme.log
+fir_normal_mult_gen_v12_0_i0_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i0_synth_1/runme.log
+fir_normal_mult_gen_v12_0_i2_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i2_synth_1/runme.log
+fir_normal_mult_gen_v12_0_i3_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i3_synth_1/runme.log
+fir_normal_mult_gen_v12_0_i4_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i4_synth_1/runme.log
+fir_normal_mult_gen_v12_0_i5_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i5_synth_1/runme.log
+fir_normal_mult_gen_v12_0_i6_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i6_synth_1/runme.log
+fir_normal_mult_gen_v12_0_i8_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i8_synth_1/runme.log
+fir_normal_mult_gen_v12_0_i7_synth_1: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/fir_normal_mult_gen_v12_0_i7_synth_1/runme.log
+[Wed Oct 21 22:28:51 2020] Launched synth_1...
+Run output will be captured here: C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1018.684 ; gain = 0.000
+[Wed Oct 21 22:28:51 2020] Waiting for synth_1 to finish...
 
 *** Running vivado
     with args -log fir_normal.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_normal.tcl
@@ -198,20 +198,20 @@ launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak =
     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 
 source fir_normal.tcl -notrace
-Command: synth_design -top fir_normal -part xc7k325tfbg676-3 -mode out_of_context
+Command: synth_design -top fir_normal -part xc7a100tftg256-1 -mode out_of_context
 Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
-INFO: [Device 21-403] Loading part xc7k325tfbg676-3
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tftg256-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 10700
+INFO: [Synth 8-7075] Helper process launched with PID 8832
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1018.352 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1018.750 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'fir_normal' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:1427]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_default_clock_driver' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:1400]
-INFO: [Synth 8-638] synthesizing module 'xlclockdriver' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'fir_normal' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:1443]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_default_clock_driver' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:1416]
+INFO: [Synth 8-638] synthesizing module 'xlclockdriver' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:59]
 	Parameter period bound to: 1 - type: integer 
 	Parameter log_2_period bound to: 1 - type: integer 
 	Parameter pipeline_regs bound to: 5 - type: integer 
@@ -220,8 +220,8 @@ INFO: [Synth 8-638] synthesizing module 'xlclockdriver' [C:/Users/s4533087/CSSE4
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:236]
-INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:47]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
@@ -229,18 +229,18 @@ INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init' [C:/Users/s4533087/CS
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
-INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:79]
-INFO: [Synth 8-638] synthesizing module 'single_reg_w_init' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:37]
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:37]
 	Parameter width bound to: 1 - type: integer 
 	Parameter init_index bound to: 0 - type: integer 
 	Parameter init_value bound to: 4'b0000 
-INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
-INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init' (1#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:37]
-INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init' (2#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:47]
-INFO: [Synth 8-256] done synthesizing module 'xlclockdriver' (3#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:59]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_default_clock_driver' (4#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:1400]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_struct' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:14]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init' (1#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init' (2#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'xlclockdriver' (3#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_default_clock_driver' (4#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:1416]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_struct' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
 	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i0 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
@@ -274,10 +274,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub' [C:/Users/s4533087
 	Parameter c_output_width bound to: 17 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i0' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i0_stub.vhdl:5' bound to instance 'core_instance0' of component 'fir_normal_c_addsub_v12_0_i0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:398]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i0_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i0' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i0_stub.vhdl:5' bound to instance 'core_instance0' of component 'fir_normal_c_addsub_v12_0_i0' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:398]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i0' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i0_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized0' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
 	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i1 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
@@ -288,10 +288,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized0' [C
 	Parameter c_out_width bound to: 16 - type: integer 
 	Parameter c_out_bin_pt bound to: 4 - type: integer 
 	Parameter c_out_arith bound to: 1 - type: integer 
-	Parameter b_width bound to: 17 - type: integer 
+	Parameter b_width bound to: 25 - type: integer 
 	Parameter b_bin_pt bound to: 16 - type: integer 
 	Parameter b_arith bound to: 2 - type: integer 
-	Parameter s_width bound to: 18 - type: integer 
+	Parameter s_width bound to: 26 - type: integer 
 	Parameter s_bin_pt bound to: 16 - type: integer 
 	Parameter s_arith bound to: 2 - type: integer 
 	Parameter rst_width bound to: 1 - type: integer 
@@ -300,7 +300,7 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized0' [C
 	Parameter en_width bound to: 1 - type: integer 
 	Parameter en_bin_pt bound to: 0 - type: integer 
 	Parameter en_arith bound to: 1 - type: integer 
-	Parameter full_s_width bound to: 18 - type: integer 
+	Parameter full_s_width bound to: 26 - type: integer 
 	Parameter full_s_arith bound to: 2 - type: integer 
 	Parameter mode bound to: 1 - type: integer 
 	Parameter extra_registers bound to: 0 - type: integer 
@@ -308,13 +308,13 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized0' [C
 	Parameter quantization bound to: 1 - type: integer 
 	Parameter overflow bound to: 1 - type: integer 
 	Parameter c_latency bound to: 0 - type: integer 
-	Parameter c_output_width bound to: 18 - type: integer 
+	Parameter c_output_width bound to: 26 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i1' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i1_stub.vhdl:5' bound to instance 'core_instance1' of component 'fir_normal_c_addsub_v12_0_i1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:407]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i1_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized0' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i1' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i1_stub.vhdl:5' bound to instance 'core_instance1' of component 'fir_normal_c_addsub_v12_0_i1' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:407]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i1' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i1_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized0' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized1' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
 	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i2 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
@@ -348,10 +348,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized1' [C
 	Parameter c_output_width bound to: 27 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i2' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i2_stub.vhdl:5' bound to instance 'core_instance2' of component 'fir_normal_c_addsub_v12_0_i2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:416]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i2_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized1' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i2' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i2_stub.vhdl:5' bound to instance 'core_instance2' of component 'fir_normal_c_addsub_v12_0_i2' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:416]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i2' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i2_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized1' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized2' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
 	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i3 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
@@ -385,10 +385,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized2' [C
 	Parameter c_output_width bound to: 28 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i3' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i3_stub.vhdl:5' bound to instance 'core_instance3' of component 'fir_normal_c_addsub_v12_0_i3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:425]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i3_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized2' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i3' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i3_stub.vhdl:5' bound to instance 'core_instance3' of component 'fir_normal_c_addsub_v12_0_i3' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:425]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i3' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i3_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized2' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized3' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
 	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i4 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
@@ -422,10 +422,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized3' [C
 	Parameter c_output_width bound to: 29 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i4' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i4_stub.vhdl:5' bound to instance 'core_instance4' of component 'fir_normal_c_addsub_v12_0_i4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:434]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i4_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized3' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i4' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i4_stub.vhdl:5' bound to instance 'core_instance4' of component 'fir_normal_c_addsub_v12_0_i4' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:434]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i4' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i4_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized3' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized4' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
 	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i5 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
@@ -459,10 +459,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized4' [C
 	Parameter c_output_width bound to: 30 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i5' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i5_stub.vhdl:5' bound to instance 'core_instance5' of component 'fir_normal_c_addsub_v12_0_i5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:443]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i5_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized4' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i5' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i5_stub.vhdl:5' bound to instance 'core_instance5' of component 'fir_normal_c_addsub_v12_0_i5' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:443]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i5' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i5_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized4' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized5' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
 	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i6 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
@@ -496,10 +496,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized5' [C
 	Parameter c_output_width bound to: 31 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i6' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i6_stub.vhdl:5' bound to instance 'core_instance6' of component 'fir_normal_c_addsub_v12_0_i6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:452]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i6_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized5' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i6' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i6_stub.vhdl:5' bound to instance 'core_instance6' of component 'fir_normal_c_addsub_v12_0_i6' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:452]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i6' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i6_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized5' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized6' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
 	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i7 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
@@ -533,11 +533,48 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized6' [C
 	Parameter c_output_width bound to: 32 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i7' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i7_stub.vhdl:5' bound to instance 'core_instance7' of component 'fir_normal_c_addsub_v12_0_i7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:461]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i7_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized6' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i7' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i7_stub.vhdl:5' bound to instance 'core_instance7' of component 'fir_normal_c_addsub_v12_0_i7' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:461]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i7' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i7_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized6' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized7' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
 	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i8 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 17 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 18 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 18 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 18 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i8' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i8_stub.vhdl:5' bound to instance 'core_instance8' of component 'fir_normal_c_addsub_v12_0_i8' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:470]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i8' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i8_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized7' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized8' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i9 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
 	Parameter a_arith bound to: 2 - type: integer 
@@ -570,11 +607,11 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized7' [C
 	Parameter c_output_width bound to: 19 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i8' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i8_stub.vhdl:5' bound to instance 'core_instance8' of component 'fir_normal_c_addsub_v12_0_i8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:470]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i8_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized7' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i9 - type: string 
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i9' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i9_stub.vhdl:5' bound to instance 'core_instance9' of component 'fir_normal_c_addsub_v12_0_i9' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:479]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i9' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i9_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized8' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized9' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i10 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
 	Parameter a_arith bound to: 2 - type: integer 
@@ -607,11 +644,11 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized8' [C
 	Parameter c_output_width bound to: 20 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i9' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i9_stub.vhdl:5' bound to instance 'core_instance9' of component 'fir_normal_c_addsub_v12_0_i9' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:479]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i9' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i9_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized8' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized9' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i10 - type: string 
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i10' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i10_stub.vhdl:5' bound to instance 'core_instance10' of component 'fir_normal_c_addsub_v12_0_i10' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:488]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i10' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i10_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized9' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized10' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i11 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
 	Parameter a_arith bound to: 2 - type: integer 
@@ -644,11 +681,11 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized9' [C
 	Parameter c_output_width bound to: 21 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i10' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i10_stub.vhdl:5' bound to instance 'core_instance10' of component 'fir_normal_c_addsub_v12_0_i10' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:488]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i10' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i10_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized9' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized10' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i11 - type: string 
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i11' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i11_stub.vhdl:5' bound to instance 'core_instance11' of component 'fir_normal_c_addsub_v12_0_i11' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:497]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i11' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i11_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized10' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized11' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i12 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
 	Parameter a_arith bound to: 2 - type: integer 
@@ -681,11 +718,11 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized10' [
 	Parameter c_output_width bound to: 22 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i11' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i11_stub.vhdl:5' bound to instance 'core_instance11' of component 'fir_normal_c_addsub_v12_0_i11' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:497]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i11' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i11_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized10' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized11' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i12 - type: string 
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i12' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i12_stub.vhdl:5' bound to instance 'core_instance12' of component 'fir_normal_c_addsub_v12_0_i12' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:506]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i12' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i12_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized11' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized12' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i13 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
 	Parameter a_arith bound to: 2 - type: integer 
@@ -718,11 +755,11 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized11' [
 	Parameter c_output_width bound to: 23 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i12' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i12_stub.vhdl:5' bound to instance 'core_instance12' of component 'fir_normal_c_addsub_v12_0_i12' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:506]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i12' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i12_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized11' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized12' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i13 - type: string 
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i13' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i13_stub.vhdl:5' bound to instance 'core_instance13' of component 'fir_normal_c_addsub_v12_0_i13' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:515]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i13' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i13_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized12' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized13' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i14 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
 	Parameter a_arith bound to: 2 - type: integer 
@@ -755,11 +792,11 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized12' [
 	Parameter c_output_width bound to: 24 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i13' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i13_stub.vhdl:5' bound to instance 'core_instance13' of component 'fir_normal_c_addsub_v12_0_i13' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:515]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i13' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i13_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized12' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized13' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i14 - type: string 
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i14' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i14_stub.vhdl:5' bound to instance 'core_instance14' of component 'fir_normal_c_addsub_v12_0_i14' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:524]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i14' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i14_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized13' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized14' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i15 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 16 - type: integer 
 	Parameter a_arith bound to: 2 - type: integer 
@@ -792,47 +829,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized13' [
 	Parameter c_output_width bound to: 25 - type: integer 
 	Parameter c_has_c_in bound to: 0 - type: integer 
 	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i14' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i14_stub.vhdl:5' bound to instance 'core_instance14' of component 'fir_normal_c_addsub_v12_0_i14' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:524]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i14' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i14_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized13' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xladdsub__parameterized14' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-	Parameter core_name0 bound to: fir_normal_c_addsub_v12_0_i15 - type: string 
-	Parameter a_width bound to: 16 - type: integer 
-	Parameter a_bin_pt bound to: 16 - type: integer 
-	Parameter a_arith bound to: 2 - type: integer 
-	Parameter c_in_width bound to: 16 - type: integer 
-	Parameter c_in_bin_pt bound to: 4 - type: integer 
-	Parameter c_in_arith bound to: 1 - type: integer 
-	Parameter c_out_width bound to: 16 - type: integer 
-	Parameter c_out_bin_pt bound to: 4 - type: integer 
-	Parameter c_out_arith bound to: 1 - type: integer 
-	Parameter b_width bound to: 25 - type: integer 
-	Parameter b_bin_pt bound to: 16 - type: integer 
-	Parameter b_arith bound to: 2 - type: integer 
-	Parameter s_width bound to: 26 - type: integer 
-	Parameter s_bin_pt bound to: 16 - type: integer 
-	Parameter s_arith bound to: 2 - type: integer 
-	Parameter rst_width bound to: 1 - type: integer 
-	Parameter rst_bin_pt bound to: 0 - type: integer 
-	Parameter rst_arith bound to: 1 - type: integer 
-	Parameter en_width bound to: 1 - type: integer 
-	Parameter en_bin_pt bound to: 0 - type: integer 
-	Parameter en_arith bound to: 1 - type: integer 
-	Parameter full_s_width bound to: 26 - type: integer 
-	Parameter full_s_arith bound to: 2 - type: integer 
-	Parameter mode bound to: 1 - type: integer 
-	Parameter extra_registers bound to: 0 - type: integer 
-	Parameter latency bound to: 0 - type: integer 
-	Parameter quantization bound to: 1 - type: integer 
-	Parameter overflow bound to: 1 - type: integer 
-	Parameter c_latency bound to: 0 - type: integer 
-	Parameter c_output_width bound to: 26 - type: integer 
-	Parameter c_has_c_in bound to: 0 - type: integer 
-	Parameter c_has_c_out bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i15' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i15_stub.vhdl:5' bound to instance 'core_instance15' of component 'fir_normal_c_addsub_v12_0_i15' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:533]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i15' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_c_addsub_v12_0_i15_stub.vhdl:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized14' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-3491] module 'fir_normal_c_addsub_v12_0_i15' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i15_stub.vhdl:5' bound to instance 'core_instance15' of component 'fir_normal_c_addsub_v12_0_i15' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:533]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_c_addsub_v12_0_i15' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_c_addsub_v12_0_i15_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xladdsub__parameterized14' (5#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
 	Parameter core_name0 bound to: fir_normal_mult_gen_v12_0_i0 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 15 - type: integer 
@@ -861,10 +861,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult' [C:/Users/s4533087/
 	Parameter const_bin_pt bound to: 1 - type: integer 
 	Parameter zero_const bound to: 0 - type: integer 
 	Parameter c_output_width bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i0' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i0_stub.vhdl:5' bound to instance 'core_instance0' of component 'fir_normal_mult_gen_v12_0_i0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:795]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i0_stub.vhdl:13]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i0' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i0_stub.vhdl:5' bound to instance 'core_instance0' of component 'fir_normal_mult_gen_v12_0_i0' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:795]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i0' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i0_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult' (6#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized0' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
 	Parameter core_name0 bound to: fir_normal_mult_gen_v12_0_i1 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 15 - type: integer 
@@ -893,10 +893,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized0' [C:
 	Parameter const_bin_pt bound to: 1 - type: integer 
 	Parameter zero_const bound to: 0 - type: integer 
 	Parameter c_output_width bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i1' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i1_stub.vhdl:5' bound to instance 'core_instance1' of component 'fir_normal_mult_gen_v12_0_i1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:803]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i1_stub.vhdl:13]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized0' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i1' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i1_stub.vhdl:5' bound to instance 'core_instance1' of component 'fir_normal_mult_gen_v12_0_i1' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:803]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i1' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i1_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized0' (6#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized1' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
 	Parameter core_name0 bound to: fir_normal_mult_gen_v12_0_i2 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 15 - type: integer 
@@ -925,10 +925,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized1' [C:
 	Parameter const_bin_pt bound to: 1 - type: integer 
 	Parameter zero_const bound to: 0 - type: integer 
 	Parameter c_output_width bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i2' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i2_stub.vhdl:5' bound to instance 'core_instance2' of component 'fir_normal_mult_gen_v12_0_i2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:811]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i2_stub.vhdl:13]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized1' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i2' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i2_stub.vhdl:5' bound to instance 'core_instance2' of component 'fir_normal_mult_gen_v12_0_i2' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:811]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i2' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i2_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized1' (6#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized2' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
 	Parameter core_name0 bound to: fir_normal_mult_gen_v12_0_i3 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 15 - type: integer 
@@ -957,10 +957,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized2' [C:
 	Parameter const_bin_pt bound to: 1 - type: integer 
 	Parameter zero_const bound to: 0 - type: integer 
 	Parameter c_output_width bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i3' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i3_stub.vhdl:5' bound to instance 'core_instance3' of component 'fir_normal_mult_gen_v12_0_i3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:819]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i3_stub.vhdl:13]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized2' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i3' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i3_stub.vhdl:5' bound to instance 'core_instance3' of component 'fir_normal_mult_gen_v12_0_i3' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:819]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i3' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i3_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized2' (6#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized3' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
 	Parameter core_name0 bound to: fir_normal_mult_gen_v12_0_i4 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 15 - type: integer 
@@ -989,10 +989,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized3' [C:
 	Parameter const_bin_pt bound to: 1 - type: integer 
 	Parameter zero_const bound to: 0 - type: integer 
 	Parameter c_output_width bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i4' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i4_stub.vhdl:5' bound to instance 'core_instance4' of component 'fir_normal_mult_gen_v12_0_i4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:827]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i4_stub.vhdl:13]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized3' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i4' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i4_stub.vhdl:5' bound to instance 'core_instance4' of component 'fir_normal_mult_gen_v12_0_i4' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:827]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i4' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i4_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized3' (6#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized4' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
 	Parameter core_name0 bound to: fir_normal_mult_gen_v12_0_i5 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 15 - type: integer 
@@ -1021,10 +1021,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized4' [C:
 	Parameter const_bin_pt bound to: 1 - type: integer 
 	Parameter zero_const bound to: 0 - type: integer 
 	Parameter c_output_width bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i5' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i5_stub.vhdl:5' bound to instance 'core_instance5' of component 'fir_normal_mult_gen_v12_0_i5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:835]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i5_stub.vhdl:13]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized4' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i5' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i5_stub.vhdl:5' bound to instance 'core_instance5' of component 'fir_normal_mult_gen_v12_0_i5' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:835]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i5' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i5_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized4' (6#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized5' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
 	Parameter core_name0 bound to: fir_normal_mult_gen_v12_0_i6 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 15 - type: integer 
@@ -1053,10 +1053,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized5' [C:
 	Parameter const_bin_pt bound to: 1 - type: integer 
 	Parameter zero_const bound to: 0 - type: integer 
 	Parameter c_output_width bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i6' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i6_stub.vhdl:5' bound to instance 'core_instance6' of component 'fir_normal_mult_gen_v12_0_i6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:843]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i6_stub.vhdl:13]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized5' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i6' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i6_stub.vhdl:5' bound to instance 'core_instance6' of component 'fir_normal_mult_gen_v12_0_i6' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:843]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i6' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i6_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized5' (6#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized6' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
 	Parameter core_name0 bound to: fir_normal_mult_gen_v12_0_i7 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 15 - type: integer 
@@ -1085,10 +1085,10 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized6' [C:
 	Parameter const_bin_pt bound to: 1 - type: integer 
 	Parameter zero_const bound to: 0 - type: integer 
 	Parameter c_output_width bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i7' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i7_stub.vhdl:5' bound to instance 'core_instance7' of component 'fir_normal_mult_gen_v12_0_i7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:851]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i7_stub.vhdl:13]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized6' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i7' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i7_stub.vhdl:5' bound to instance 'core_instance7' of component 'fir_normal_mult_gen_v12_0_i7' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:851]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i7' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i7_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized6' (6#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized7' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
 	Parameter core_name0 bound to: fir_normal_mult_gen_v12_0_i1 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 15 - type: integer 
@@ -1117,9 +1117,9 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized7' [C:
 	Parameter const_bin_pt bound to: 1 - type: integer 
 	Parameter zero_const bound to: 0 - type: integer 
 	Parameter c_output_width bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i1' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i1_stub.vhdl:5' bound to instance 'core_instance1' of component 'fir_normal_mult_gen_v12_0_i1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:803]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized7' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i1' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i1_stub.vhdl:5' bound to instance 'core_instance1' of component 'fir_normal_mult_gen_v12_0_i1' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:803]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized7' (6#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized8' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
 	Parameter core_name0 bound to: fir_normal_mult_gen_v12_0_i8 - type: string 
 	Parameter a_width bound to: 16 - type: integer 
 	Parameter a_bin_pt bound to: 15 - type: integer 
@@ -1148,195 +1148,247 @@ INFO: [Synth 8-638] synthesizing module 'fir_normal_xlcmult__parameterized8' [C:
 	Parameter const_bin_pt bound to: 1 - type: integer 
 	Parameter zero_const bound to: 0 - type: integer 
 	Parameter c_output_width bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i8' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i8_stub.vhdl:5' bound to instance 'core_instance8' of component 'fir_normal_mult_gen_v12_0_i8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:859]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-13252-ax401-3843/realtime/fir_normal_mult_gen_v12_0_i8_stub.vhdl:13]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized8' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
-INFO: [Synth 8-638] synthesizing module 'fir_normal_xldelay' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:60]
+INFO: [Synth 8-3491] module 'fir_normal_mult_gen_v12_0_i8' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i8_stub.vhdl:5' bound to instance 'core_instance8' of component 'fir_normal_mult_gen_v12_0_i8' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:859]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_mult_gen_v12_0_i8' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/.Xil/Vivado-14240-ax401-3487/realtime/fir_normal_mult_gen_v12_0_i8_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xlcmult__parameterized8' (6#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xldelay' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:60]
 	Parameter width bound to: 16 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
 	Parameter reg_retiming bound to: 0 - type: integer 
 	Parameter reset bound to: 0 - type: integer 
 	Parameter width bound to: 16 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:87]
-INFO: [Synth 8-638] synthesizing module 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
 	Parameter width bound to: 16 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
 	Parameter width bound to: 16 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
-INFO: [Synth 8-638] synthesizing module 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
 	Parameter width bound to: 16 - type: integer 
 	Parameter latency bound to: 1 - type: integer 
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
-INFO: [Synth 8-256] done synthesizing module 'srlc33e' (7#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
-INFO: [Synth 8-256] done synthesizing module 'synth_reg' (8#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_xldelay' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:60]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal_struct' (10#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'fir_normal' (11#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:1427]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e' (7#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg' (8#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xldelay' (9#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_normal_xldelay__parameterized0' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:60]
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized1' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized1' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized1' (9#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized1' (9#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_xldelay__parameterized0' (9#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal_entity_declarations.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal_struct' (10#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_normal' (11#1) [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/imports/sysgen/fir_normal.vhd:1443]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1018.352 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1018.750 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1018.352 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1018.750 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1018.352 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1018.750 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1018.352 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 272 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1018.750 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 304 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i15/fir_normal_c_addsub_v12_0_i15/fir_normal_c_addsub_v12_0_i15_in_context.xdc] for cell 'fir_normal_struct/addsub9/comp15.core_instance15'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i15/fir_normal_c_addsub_v12_0_i15/fir_normal_c_addsub_v12_0_i15_in_context.xdc] for cell 'fir_normal_struct/addsub9/comp15.core_instance15'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i10/fir_normal_c_addsub_v12_0_i10/fir_normal_c_addsub_v12_0_i10_in_context.xdc] for cell 'fir_normal_struct/addsub4/comp10.core_instance10'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i10/fir_normal_c_addsub_v12_0_i10/fir_normal_c_addsub_v12_0_i10_in_context.xdc] for cell 'fir_normal_struct/addsub4/comp10.core_instance10'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i11/fir_normal_c_addsub_v12_0_i11/fir_normal_c_addsub_v12_0_i11_in_context.xdc] for cell 'fir_normal_struct/addsub5/comp11.core_instance11'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i11/fir_normal_c_addsub_v12_0_i11/fir_normal_c_addsub_v12_0_i11_in_context.xdc] for cell 'fir_normal_struct/addsub5/comp11.core_instance11'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i12/fir_normal_c_addsub_v12_0_i12/fir_normal_c_addsub_v12_0_i12_in_context.xdc] for cell 'fir_normal_struct/addsub6/comp12.core_instance12'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i12/fir_normal_c_addsub_v12_0_i12/fir_normal_c_addsub_v12_0_i12_in_context.xdc] for cell 'fir_normal_struct/addsub6/comp12.core_instance12'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i14/fir_normal_c_addsub_v12_0_i14/fir_normal_c_addsub_v12_0_i14_in_context.xdc] for cell 'fir_normal_struct/addsub8/comp14.core_instance14'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i14/fir_normal_c_addsub_v12_0_i14/fir_normal_c_addsub_v12_0_i14_in_context.xdc] for cell 'fir_normal_struct/addsub8/comp14.core_instance14'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i13/fir_normal_c_addsub_v12_0_i13/fir_normal_c_addsub_v12_0_i13_in_context.xdc] for cell 'fir_normal_struct/addsub7/comp13.core_instance13'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i13/fir_normal_c_addsub_v12_0_i13/fir_normal_c_addsub_v12_0_i13_in_context.xdc] for cell 'fir_normal_struct/addsub7/comp13.core_instance13'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i9/fir_normal_c_addsub_v12_0_i9/fir_normal_c_addsub_v12_0_i9_in_context.xdc] for cell 'fir_normal_struct/addsub3/comp9.core_instance9'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i9/fir_normal_c_addsub_v12_0_i9/fir_normal_c_addsub_v12_0_i9_in_context.xdc] for cell 'fir_normal_struct/addsub3/comp9.core_instance9'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i5/fir_normal_c_addsub_v12_0_i5/fir_normal_c_addsub_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/addsub13/comp5.core_instance5'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i5/fir_normal_c_addsub_v12_0_i5/fir_normal_c_addsub_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/addsub13/comp5.core_instance5'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i7/fir_normal_c_addsub_v12_0_i7/fir_normal_c_addsub_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/addsub15/comp7.core_instance7'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i7/fir_normal_c_addsub_v12_0_i7/fir_normal_c_addsub_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/addsub15/comp7.core_instance7'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i8/fir_normal_c_addsub_v12_0_i8/fir_normal_c_addsub_v12_0_i8_in_context.xdc] for cell 'fir_normal_struct/addsub2/comp8.core_instance8'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i8/fir_normal_c_addsub_v12_0_i8/fir_normal_c_addsub_v12_0_i8_in_context.xdc] for cell 'fir_normal_struct/addsub2/comp8.core_instance8'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i4/fir_normal_c_addsub_v12_0_i4/fir_normal_c_addsub_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/addsub12/comp4.core_instance4'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i4/fir_normal_c_addsub_v12_0_i4/fir_normal_c_addsub_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/addsub12/comp4.core_instance4'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/addsub14/comp6.core_instance6'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/addsub14/comp6.core_instance6'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/cmult13/comp4.core_instance4'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/cmult13/comp4.core_instance4'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/cmult5/comp4.core_instance4'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/cmult5/comp4.core_instance4'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/cmult12/comp3.core_instance3'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/cmult12/comp3.core_instance3'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/cmult6/comp3.core_instance3'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/cmult6/comp3.core_instance3'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/cmult1/comp0.core_instance0'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/cmult1/comp0.core_instance0'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/cmult17/comp0.core_instance0'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/cmult17/comp0.core_instance0'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/cmult10/comp1.core_instance1'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/cmult10/comp1.core_instance1'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/cmult8/comp1.core_instance1'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/cmult8/comp1.core_instance1'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/cmult11/comp2.core_instance2'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/cmult11/comp2.core_instance2'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/cmult7/comp2.core_instance2'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/cmult7/comp2.core_instance2'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i0/fir_normal_c_addsub_v12_0_i0/fir_normal_c_addsub_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/addsub/comp0.core_instance0'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i0/fir_normal_c_addsub_v12_0_i0/fir_normal_c_addsub_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/addsub/comp0.core_instance0'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i1/fir_normal_c_addsub_v12_0_i1/fir_normal_c_addsub_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/addsub1/comp1.core_instance1'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i1/fir_normal_c_addsub_v12_0_i1/fir_normal_c_addsub_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/addsub1/comp1.core_instance1'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i3/fir_normal_c_addsub_v12_0_i3/fir_normal_c_addsub_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/addsub11/comp3.core_instance3'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i3/fir_normal_c_addsub_v12_0_i3/fir_normal_c_addsub_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/addsub11/comp3.core_instance3'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i2/fir_normal_c_addsub_v12_0_i2/fir_normal_c_addsub_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/addsub10/comp2.core_instance2'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i2/fir_normal_c_addsub_v12_0_i2/fir_normal_c_addsub_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/addsub10/comp2.core_instance2'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i8/fir_normal_mult_gen_v12_0_i8/fir_normal_mult_gen_v12_0_i8_in_context.xdc] for cell 'fir_normal_struct/cmult9/comp8.core_instance8'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i8/fir_normal_mult_gen_v12_0_i8/fir_normal_mult_gen_v12_0_i8_in_context.xdc] for cell 'fir_normal_struct/cmult9/comp8.core_instance8'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/cmult16/comp7.core_instance7'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/cmult16/comp7.core_instance7'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/cmult2/comp7.core_instance7'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/cmult2/comp7.core_instance7'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/cmult15/comp6.core_instance6'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/cmult15/comp6.core_instance6'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/cmult3/comp6.core_instance6'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/cmult3/comp6.core_instance6'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/cmult14/comp5.core_instance5'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/cmult14/comp5.core_instance5'
-Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/cmult4/comp5.core_instance5'
-Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/cmult4/comp5.core_instance5'
-Parsing XDC File [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/constrs_1/imports/sysgen/fir_normal_clock.xdc]
-Finished Parsing XDC File [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/constrs_1/imports/sysgen/fir_normal_clock.xdc]
-Parsing XDC File [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/constrs_1/imports/sysgen/fir_normal.xdc]
-Finished Parsing XDC File [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/constrs_1/imports/sysgen/fir_normal.xdc]
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i4/fir_normal_c_addsub_v12_0_i4/fir_normal_c_addsub_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/addsub13/comp4.core_instance4'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i4/fir_normal_c_addsub_v12_0_i4/fir_normal_c_addsub_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/addsub13/comp4.core_instance4'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i1/fir_normal_c_addsub_v12_0_i1/fir_normal_c_addsub_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/addsub10/comp1.core_instance1'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i1/fir_normal_c_addsub_v12_0_i1/fir_normal_c_addsub_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/addsub10/comp1.core_instance1'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i3/fir_normal_c_addsub_v12_0_i3/fir_normal_c_addsub_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/addsub12/comp3.core_instance3'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i3/fir_normal_c_addsub_v12_0_i3/fir_normal_c_addsub_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/addsub12/comp3.core_instance3'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i2/fir_normal_c_addsub_v12_0_i2/fir_normal_c_addsub_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/addsub11/comp2.core_instance2'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i2/fir_normal_c_addsub_v12_0_i2/fir_normal_c_addsub_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/addsub11/comp2.core_instance2'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i0/fir_normal_c_addsub_v12_0_i0/fir_normal_c_addsub_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/addsub1/comp0.core_instance0'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i0/fir_normal_c_addsub_v12_0_i0/fir_normal_c_addsub_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/addsub1/comp0.core_instance0'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i8/fir_normal_c_addsub_v12_0_i8/fir_normal_c_addsub_v12_0_i8_in_context.xdc] for cell 'fir_normal_struct/addsub2/comp8.core_instance8'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i8/fir_normal_c_addsub_v12_0_i8/fir_normal_c_addsub_v12_0_i8_in_context.xdc] for cell 'fir_normal_struct/addsub2/comp8.core_instance8'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i5/fir_normal_c_addsub_v12_0_i5/fir_normal_c_addsub_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/addsub14/comp5.core_instance5'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i5/fir_normal_c_addsub_v12_0_i5/fir_normal_c_addsub_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/addsub14/comp5.core_instance5'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i10/fir_normal_c_addsub_v12_0_i10/fir_normal_c_addsub_v12_0_i10_in_context.xdc] for cell 'fir_normal_struct/addsub4/comp10.core_instance10'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i10/fir_normal_c_addsub_v12_0_i10/fir_normal_c_addsub_v12_0_i10_in_context.xdc] for cell 'fir_normal_struct/addsub4/comp10.core_instance10'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/addsub15/comp6.core_instance6'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6/fir_normal_c_addsub_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/addsub15/comp6.core_instance6'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i9/fir_normal_c_addsub_v12_0_i9/fir_normal_c_addsub_v12_0_i9_in_context.xdc] for cell 'fir_normal_struct/addsub3/comp9.core_instance9'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i9/fir_normal_c_addsub_v12_0_i9/fir_normal_c_addsub_v12_0_i9_in_context.xdc] for cell 'fir_normal_struct/addsub3/comp9.core_instance9'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i7/fir_normal_c_addsub_v12_0_i7/fir_normal_c_addsub_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/addsub16/comp7.core_instance7'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i7/fir_normal_c_addsub_v12_0_i7/fir_normal_c_addsub_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/addsub16/comp7.core_instance7'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i15/fir_normal_c_addsub_v12_0_i15/fir_normal_c_addsub_v12_0_i15_in_context.xdc] for cell 'fir_normal_struct/addsub9/comp15.core_instance15'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i15/fir_normal_c_addsub_v12_0_i15/fir_normal_c_addsub_v12_0_i15_in_context.xdc] for cell 'fir_normal_struct/addsub9/comp15.core_instance15'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i13/fir_normal_c_addsub_v12_0_i13/fir_normal_c_addsub_v12_0_i13_in_context.xdc] for cell 'fir_normal_struct/addsub7/comp13.core_instance13'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i13/fir_normal_c_addsub_v12_0_i13/fir_normal_c_addsub_v12_0_i13_in_context.xdc] for cell 'fir_normal_struct/addsub7/comp13.core_instance13'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i14/fir_normal_c_addsub_v12_0_i14/fir_normal_c_addsub_v12_0_i14_in_context.xdc] for cell 'fir_normal_struct/addsub8/comp14.core_instance14'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i14/fir_normal_c_addsub_v12_0_i14/fir_normal_c_addsub_v12_0_i14_in_context.xdc] for cell 'fir_normal_struct/addsub8/comp14.core_instance14'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i12/fir_normal_c_addsub_v12_0_i12/fir_normal_c_addsub_v12_0_i12_in_context.xdc] for cell 'fir_normal_struct/addsub6/comp12.core_instance12'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i12/fir_normal_c_addsub_v12_0_i12/fir_normal_c_addsub_v12_0_i12_in_context.xdc] for cell 'fir_normal_struct/addsub6/comp12.core_instance12'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i11/fir_normal_c_addsub_v12_0_i11/fir_normal_c_addsub_v12_0_i11_in_context.xdc] for cell 'fir_normal_struct/addsub5/comp11.core_instance11'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_c_addsub_v12_0_i11/fir_normal_c_addsub_v12_0_i11/fir_normal_c_addsub_v12_0_i11_in_context.xdc] for cell 'fir_normal_struct/addsub5/comp11.core_instance11'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/cmult10/comp1.core_instance1'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/cmult10/comp1.core_instance1'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/cmult8/comp1.core_instance1'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1/fir_normal_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_normal_struct/cmult8/comp1.core_instance1'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/cmult1/comp0.core_instance0'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/cmult1/comp0.core_instance0'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/cmult17/comp0.core_instance0'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0/fir_normal_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_normal_struct/cmult17/comp0.core_instance0'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/cmult11/comp2.core_instance2'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/cmult11/comp2.core_instance2'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/cmult7/comp2.core_instance2'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2/fir_normal_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_normal_struct/cmult7/comp2.core_instance2'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/cmult12/comp3.core_instance3'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/cmult12/comp3.core_instance3'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/cmult6/comp3.core_instance3'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3/fir_normal_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_normal_struct/cmult6/comp3.core_instance3'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/cmult13/comp4.core_instance4'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/cmult13/comp4.core_instance4'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/cmult5/comp4.core_instance4'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4/fir_normal_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_normal_struct/cmult5/comp4.core_instance4'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/cmult14/comp5.core_instance5'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/cmult14/comp5.core_instance5'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/cmult4/comp5.core_instance5'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5/fir_normal_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_normal_struct/cmult4/comp5.core_instance5'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/cmult15/comp6.core_instance6'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/cmult15/comp6.core_instance6'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/cmult3/comp6.core_instance6'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6/fir_normal_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_normal_struct/cmult3/comp6.core_instance6'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i8/fir_normal_mult_gen_v12_0_i8/fir_normal_mult_gen_v12_0_i8_in_context.xdc] for cell 'fir_normal_struct/cmult9/comp8.core_instance8'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i8/fir_normal_mult_gen_v12_0_i8/fir_normal_mult_gen_v12_0_i8_in_context.xdc] for cell 'fir_normal_struct/cmult9/comp8.core_instance8'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/cmult16/comp7.core_instance7'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/cmult16/comp7.core_instance7'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/cmult2/comp7.core_instance7'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/sources_1/ip/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7/fir_normal_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_normal_struct/cmult2/comp7.core_instance7'
+Parsing XDC File [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/constrs_1/imports/sysgen/fir_normal_clock.xdc]
+Finished Parsing XDC File [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/constrs_1/imports/sysgen/fir_normal_clock.xdc]
+Parsing XDC File [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/constrs_1/imports/sysgen/fir_normal.xdc]
+Finished Parsing XDC File [C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.srcs/constrs_1/imports/sysgen/fir_normal.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1076.852 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1057.734 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 272 instances were transformed.
-  FDE => FDRE: 272 instances
+  A total of 304 instances were transformed.
+  FDE => FDRE: 304 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1088.855 ; gain = 12.004
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1064.723 ; gain = 6.988
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
-Loading part: xc7k325tfbg676-3
+Loading part: xc7a100tftg256-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub9/\comp15.core_instance15 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub4/\comp10.core_instance10 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub5/\comp11.core_instance11 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub6/\comp12.core_instance12 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub8/\comp14.core_instance14 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub7/\comp13.core_instance13 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub3/\comp9.core_instance9 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub13/\comp5.core_instance5 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub15/\comp7.core_instance7 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub13/\comp4.core_instance4 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub10/\comp1.core_instance1 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub12/\comp3.core_instance3 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub11/\comp2.core_instance2 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub1/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub2/\comp8.core_instance8 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub12/\comp4.core_instance4 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub14/\comp6.core_instance6 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult13/\comp4.core_instance4 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult5/\comp4.core_instance4 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult12/\comp3.core_instance3 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult6/\comp3.core_instance3 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult1/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult17/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub14/\comp5.core_instance5 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub4/\comp10.core_instance10 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub15/\comp6.core_instance6 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub3/\comp9.core_instance9 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub16/\comp7.core_instance7 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub9/\comp15.core_instance15 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub7/\comp13.core_instance13 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub8/\comp14.core_instance14 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub6/\comp12.core_instance12 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub5/\comp11.core_instance11 . (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult10/\comp1.core_instance1 . (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult8/\comp1.core_instance1 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult1/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult17/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult11/\comp2.core_instance2 . (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult7/\comp2.core_instance2 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub1/\comp1.core_instance1 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub11/\comp3.core_instance3 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/addsub10/\comp2.core_instance2 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult12/\comp3.core_instance3 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult6/\comp3.core_instance3 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult13/\comp4.core_instance4 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult5/\comp4.core_instance4 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult14/\comp5.core_instance5 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult4/\comp5.core_instance5 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult15/\comp6.core_instance6 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult3/\comp6.core_instance6 . (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult9/\comp8.core_instance8 . (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult16/\comp7.core_instance7 . (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult2/\comp7.core_instance7 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult15/\comp6.core_instance6 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult3/\comp6.core_instance6 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult14/\comp5.core_instance5 . (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for fir_normal_struct/cmult4/\comp5.core_instance5 . (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -1351,8 +1403,8 @@ Finished RTL Component Statistics
 Start Part Resource Summary
 ---------------------------------------------------------------------------------
 Part Resources:
-DSPs: 840 (col length:140)
-BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
@@ -1360,25 +1412,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -1396,37 +1448,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1500,40 +1552,40 @@ Report Cell Usage:
 |32    |fir_normal_mult_gen_v12_0_i7_bbox_24_ |     1|
 |33    |fir_normal_mult_gen_v12_0_i8_bbox     |     1|
 |34    |LUT5                                  |   240|
-|35    |FDE                                   |   272|
+|35    |FDE                                   |   304|
 +------+--------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1064.723 ; gain = 45.973
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1088.855 ; gain = 0.000
-Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1088.855 ; gain = 70.504
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1064.723 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1064.723 ; gain = 45.973
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1088.855 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 272 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1064.723 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 304 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1101.418 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1064.723 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 272 instances were transformed.
-  FDE => FDRE: 272 instances
+  A total of 304 instances were transformed.
+  FDE => FDRE: 304 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-158 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+198 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 1101.418 ; gain = 83.066
-INFO: [Common 17-1381] The checkpoint 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/fir_normal.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1064.723 ; gain = 45.973
+INFO: [Common 17-1381] The checkpoint 'C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist/hdl_netlist/fir_normal.runs/synth_1/fir_normal.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file fir_normal_utilization_synth.rpt -pb fir_normal_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Oct 20 15:06:26 2020...
-[Tue Oct 20 15:06:27 2020] synth_1 finished
-wait_on_run: Time (s): cpu = 00:00:09 ; elapsed = 00:21:00 . Memory (MB): peak = 1018.379 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 21 22:48:36 2020...
+[Wed Oct 21 22:48:41 2020] synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:08 ; elapsed = 00:19:50 . Memory (MB): peak = 1018.684 ; gain = 0.000
 INFO: SG_Analyzer -- Timing paths data will be collected from the post-synthesis design ...
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
 Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
-get_timing_paths: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1571.965 ; gain = 553.586
+get_timing_paths: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1481.461 ; gain = 462.777
 WARNING: [Common 17-673] Cannot get value of property 'ULTRA_RAMS' because this property is not valid in conjunction with other property setting on this object.
 INFO: Setting More Options property of synthesis to empty string.
 INFO: SG_Analyzer -- Collected Vivado timing paths and resource utilization information ...
-INFO: [Common 17-206] Exiting Vivado at Tue Oct 20 15:06:51 2020...
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 21 22:49:05 2020...
