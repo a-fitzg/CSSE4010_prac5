@@ -1,0 +1,1744 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct 22 23:44:39 2020
+# Process ID: 13816
+# Current directory: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1
+# Command line: vivado.exe -log fir_optimised.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_optimised.tcl
+# Log file: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/fir_optimised.vds
+# Journal file: C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fir_optimised.tcl -notrace
+Command: synth_design -top fir_optimised -part xc7a100tftg256-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tftg256-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18056
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1021.086 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'fir_optimised' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised.vhd:1699]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_default_clock_driver' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised.vhd:1672]
+INFO: [Synth 8-638] synthesizing module 'xlclockdriver' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:59]
+	Parameter period bound to: 1 - type: integer 
+	Parameter log_2_period bound to: 1 - type: integer 
+	Parameter pipeline_regs bound to: 5 - type: integer 
+	Parameter use_bufg bound to: 0 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:37]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init' (1#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init' (2#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'xlclockdriver' (3#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_default_clock_driver' (4#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised.vhd:1672]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_struct' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i0 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 16 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 17 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 17 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 17 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i0' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i0_stub.vhdl:5' bound to instance 'core_instance0' of component 'fir_optimised_c_addsub_v12_0_i0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:398]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i0_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i1 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 25 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 26 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 26 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 26 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i1' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i1_stub.vhdl:5' bound to instance 'core_instance1' of component 'fir_optimised_c_addsub_v12_0_i1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:407]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i1_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized0' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i2 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 26 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 27 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 27 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 27 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i2' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i2_stub.vhdl:5' bound to instance 'core_instance2' of component 'fir_optimised_c_addsub_v12_0_i2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:416]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i2_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized1' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i3 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 27 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 28 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 28 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 28 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i3' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i3_stub.vhdl:5' bound to instance 'core_instance3' of component 'fir_optimised_c_addsub_v12_0_i3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:425]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i3_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized2' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i4 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 28 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 29 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 29 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 29 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i4' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i4_stub.vhdl:5' bound to instance 'core_instance4' of component 'fir_optimised_c_addsub_v12_0_i4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:434]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i4_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized3' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i5 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 29 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 30 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 30 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 30 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i5' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i5_stub.vhdl:5' bound to instance 'core_instance5' of component 'fir_optimised_c_addsub_v12_0_i5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:443]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i5_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized4' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i6 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 30 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 31 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 31 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 31 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i6' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i6_stub.vhdl:5' bound to instance 'core_instance6' of component 'fir_optimised_c_addsub_v12_0_i6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:452]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i6_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized5' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i7 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 31 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 32 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 32 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 32 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i7' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i7_stub.vhdl:5' bound to instance 'core_instance7' of component 'fir_optimised_c_addsub_v12_0_i7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:461]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i7_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized6' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i8 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 17 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 18 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 18 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 18 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i8' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i8_stub.vhdl:5' bound to instance 'core_instance8' of component 'fir_optimised_c_addsub_v12_0_i8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:470]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i8_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized7' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i9 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 18 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 19 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 19 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 19 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i9' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i9_stub.vhdl:5' bound to instance 'core_instance9' of component 'fir_optimised_c_addsub_v12_0_i9' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:479]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i9' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i9_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized8' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized9' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i10 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 19 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 20 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 20 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 20 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i10' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i10_stub.vhdl:5' bound to instance 'core_instance10' of component 'fir_optimised_c_addsub_v12_0_i10' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:488]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i10' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i10_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized9' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized10' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i11 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 20 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 21 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 21 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 21 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i11' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i11_stub.vhdl:5' bound to instance 'core_instance11' of component 'fir_optimised_c_addsub_v12_0_i11' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:497]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i11' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i11_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized10' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized11' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i12 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 21 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 22 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 22 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 22 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i12' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i12_stub.vhdl:5' bound to instance 'core_instance12' of component 'fir_optimised_c_addsub_v12_0_i12' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:506]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i12' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i12_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized11' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized12' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i13 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 22 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 23 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 23 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 23 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i13' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i13_stub.vhdl:5' bound to instance 'core_instance13' of component 'fir_optimised_c_addsub_v12_0_i13' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:515]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i13' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i13_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized12' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized13' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i14 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 23 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 24 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 24 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 24 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i14' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i14_stub.vhdl:5' bound to instance 'core_instance14' of component 'fir_optimised_c_addsub_v12_0_i14' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:524]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i14' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i14_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized13' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xladdsub__parameterized14' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+	Parameter core_name0 bound to: fir_optimised_c_addsub_v12_0_i15 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 16 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter c_in_width bound to: 16 - type: integer 
+	Parameter c_in_bin_pt bound to: 4 - type: integer 
+	Parameter c_in_arith bound to: 1 - type: integer 
+	Parameter c_out_width bound to: 16 - type: integer 
+	Parameter c_out_bin_pt bound to: 4 - type: integer 
+	Parameter c_out_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 24 - type: integer 
+	Parameter b_bin_pt bound to: 16 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter s_width bound to: 25 - type: integer 
+	Parameter s_bin_pt bound to: 16 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 25 - type: integer 
+	Parameter full_s_arith bound to: 2 - type: integer 
+	Parameter mode bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 25 - type: integer 
+	Parameter c_has_c_in bound to: 0 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_c_addsub_v12_0_i15' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i15_stub.vhdl:5' bound to instance 'core_instance15' of component 'fir_optimised_c_addsub_v12_0_i15' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:533]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_c_addsub_v12_0_i15' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_c_addsub_v12_0_i15_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xladdsub__parameterized14' (5#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xlcmult' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+	Parameter core_name0 bound to: fir_optimised_mult_gen_v12_0_i0 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 15 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 4 - type: integer 
+	Parameter b_bin_pt bound to: 14 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 16 - type: integer 
+	Parameter p_bin_pt bound to: 16 - type: integer 
+	Parameter p_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 2 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 16 - type: integer 
+	Parameter c_b_width bound to: 16 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 0 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter const_bin_pt bound to: 1 - type: integer 
+	Parameter zero_const bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_mult_gen_v12_0_i0' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i0_stub.vhdl:5' bound to instance 'core_instance0' of component 'fir_optimised_mult_gen_v12_0_i0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:795]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_mult_gen_v12_0_i0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i0_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xlcmult' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xlcmult__parameterized0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+	Parameter core_name0 bound to: fir_optimised_mult_gen_v12_0_i1 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 15 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 4 - type: integer 
+	Parameter b_bin_pt bound to: 14 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 16 - type: integer 
+	Parameter p_bin_pt bound to: 16 - type: integer 
+	Parameter p_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 2 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 16 - type: integer 
+	Parameter c_b_width bound to: 16 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 1 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter const_bin_pt bound to: 1 - type: integer 
+	Parameter zero_const bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_mult_gen_v12_0_i1' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i1_stub.vhdl:5' bound to instance 'core_instance1' of component 'fir_optimised_mult_gen_v12_0_i1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:803]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_mult_gen_v12_0_i1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i1_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xlcmult__parameterized0' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xlcmult__parameterized1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+	Parameter core_name0 bound to: fir_optimised_mult_gen_v12_0_i2 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 15 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 4 - type: integer 
+	Parameter b_bin_pt bound to: 14 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 16 - type: integer 
+	Parameter p_bin_pt bound to: 16 - type: integer 
+	Parameter p_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 2 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 16 - type: integer 
+	Parameter c_b_width bound to: 16 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 1 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter const_bin_pt bound to: 1 - type: integer 
+	Parameter zero_const bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_mult_gen_v12_0_i2' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i2_stub.vhdl:5' bound to instance 'core_instance2' of component 'fir_optimised_mult_gen_v12_0_i2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:811]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_mult_gen_v12_0_i2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i2_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xlcmult__parameterized1' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xlcmult__parameterized2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+	Parameter core_name0 bound to: fir_optimised_mult_gen_v12_0_i3 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 15 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 4 - type: integer 
+	Parameter b_bin_pt bound to: 14 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 16 - type: integer 
+	Parameter p_bin_pt bound to: 16 - type: integer 
+	Parameter p_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 2 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 16 - type: integer 
+	Parameter c_b_width bound to: 16 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 1 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter const_bin_pt bound to: 1 - type: integer 
+	Parameter zero_const bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_mult_gen_v12_0_i3' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i3_stub.vhdl:5' bound to instance 'core_instance3' of component 'fir_optimised_mult_gen_v12_0_i3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:819]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_mult_gen_v12_0_i3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i3_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xlcmult__parameterized2' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xlcmult__parameterized3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+	Parameter core_name0 bound to: fir_optimised_mult_gen_v12_0_i4 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 15 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 4 - type: integer 
+	Parameter b_bin_pt bound to: 14 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 16 - type: integer 
+	Parameter p_bin_pt bound to: 16 - type: integer 
+	Parameter p_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 2 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 16 - type: integer 
+	Parameter c_b_width bound to: 16 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 1 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter const_bin_pt bound to: 1 - type: integer 
+	Parameter zero_const bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_mult_gen_v12_0_i4' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i4_stub.vhdl:5' bound to instance 'core_instance4' of component 'fir_optimised_mult_gen_v12_0_i4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:827]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_mult_gen_v12_0_i4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i4_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xlcmult__parameterized3' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xlcmult__parameterized4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+	Parameter core_name0 bound to: fir_optimised_mult_gen_v12_0_i5 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 15 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 4 - type: integer 
+	Parameter b_bin_pt bound to: 14 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 16 - type: integer 
+	Parameter p_bin_pt bound to: 16 - type: integer 
+	Parameter p_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 2 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 16 - type: integer 
+	Parameter c_b_width bound to: 16 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 1 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter const_bin_pt bound to: 1 - type: integer 
+	Parameter zero_const bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_mult_gen_v12_0_i5' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i5_stub.vhdl:5' bound to instance 'core_instance5' of component 'fir_optimised_mult_gen_v12_0_i5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:835]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_mult_gen_v12_0_i5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i5_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xlcmult__parameterized4' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xlcmult__parameterized5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+	Parameter core_name0 bound to: fir_optimised_mult_gen_v12_0_i6 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 15 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 4 - type: integer 
+	Parameter b_bin_pt bound to: 14 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 16 - type: integer 
+	Parameter p_bin_pt bound to: 16 - type: integer 
+	Parameter p_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 2 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 16 - type: integer 
+	Parameter c_b_width bound to: 16 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 1 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter const_bin_pt bound to: 1 - type: integer 
+	Parameter zero_const bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_mult_gen_v12_0_i6' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i6_stub.vhdl:5' bound to instance 'core_instance6' of component 'fir_optimised_mult_gen_v12_0_i6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:843]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_mult_gen_v12_0_i6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i6_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xlcmult__parameterized5' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xlcmult__parameterized6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+	Parameter core_name0 bound to: fir_optimised_mult_gen_v12_0_i7 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 15 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 4 - type: integer 
+	Parameter b_bin_pt bound to: 14 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 16 - type: integer 
+	Parameter p_bin_pt bound to: 16 - type: integer 
+	Parameter p_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 2 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 16 - type: integer 
+	Parameter c_b_width bound to: 16 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 0 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter const_bin_pt bound to: 1 - type: integer 
+	Parameter zero_const bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_mult_gen_v12_0_i7' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i7_stub.vhdl:5' bound to instance 'core_instance7' of component 'fir_optimised_mult_gen_v12_0_i7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:851]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_mult_gen_v12_0_i7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i7_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xlcmult__parameterized6' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xlcmult__parameterized7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+	Parameter core_name0 bound to: fir_optimised_mult_gen_v12_0_i1 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 15 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 4 - type: integer 
+	Parameter b_bin_pt bound to: 14 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 16 - type: integer 
+	Parameter p_bin_pt bound to: 16 - type: integer 
+	Parameter p_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 16 - type: integer 
+	Parameter c_b_width bound to: 16 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 1 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter const_bin_pt bound to: 1 - type: integer 
+	Parameter zero_const bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_mult_gen_v12_0_i1' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i1_stub.vhdl:5' bound to instance 'core_instance1' of component 'fir_optimised_mult_gen_v12_0_i1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:803]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xlcmult__parameterized7' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xlcmult__parameterized8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+	Parameter core_name0 bound to: fir_optimised_mult_gen_v12_0_i8 - type: string 
+	Parameter a_width bound to: 16 - type: integer 
+	Parameter a_bin_pt bound to: 15 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 4 - type: integer 
+	Parameter b_bin_pt bound to: 14 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 16 - type: integer 
+	Parameter p_bin_pt bound to: 16 - type: integer 
+	Parameter p_arith bound to: 2 - type: integer 
+	Parameter rst_width bound to: 1 - type: integer 
+	Parameter rst_bin_pt bound to: 0 - type: integer 
+	Parameter rst_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 2 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 16 - type: integer 
+	Parameter c_b_width bound to: 16 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 1 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter const_bin_pt bound to: 1 - type: integer 
+	Parameter zero_const bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'fir_optimised_mult_gen_v12_0_i8' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i8_stub.vhdl:5' bound to instance 'core_instance8' of component 'fir_optimised_mult_gen_v12_0_i8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:859]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_mult_gen_v12_0_i8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/.Xil/Vivado-13816-ax401-3497/realtime/fir_optimised_mult_gen_v12_0_i8_stub.vhdl:13]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xlcmult__parameterized8' (6#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:686]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 16 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 16 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 16 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e' (7#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg' (8#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized0' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 24 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 24 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 24 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 24 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 24 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized1' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized1' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized0' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized1' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 26 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 26 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 26 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 26 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 26 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized3' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized3' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized1' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized2' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 27 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 27 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 27 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 27 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 27 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized5' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized5' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized2' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized3' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 28 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 28 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 28 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 28 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 28 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:75]
+INFO: [Common 17-14] Message 'Synth 8-113' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized7' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized7' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized3' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized4' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 29 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 29 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized9' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 29 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 29 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized9' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 29 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized9' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized9' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized4' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized5' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 30 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 30 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized11' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 30 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 30 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized11' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 30 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized11' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized11' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized5' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized6' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized13' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized13' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized13' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized13' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized6' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized7' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 31 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 31 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized15' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 31 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 31 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized15' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 31 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized15' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized15' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized7' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized8' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 17 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 17 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized17' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 17 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 17 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized17' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 17 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized17' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized17' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized8' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized9' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 18 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 18 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized19' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 18 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 18 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized19' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 18 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized19' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized19' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized9' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized10' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 19 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 19 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized21' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 19 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 19 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized21' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 19 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized21' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized21' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized10' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized11' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 20 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 20 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized23' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 20 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 20 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized23' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 20 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized23' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized23' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized11' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized12' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 21 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 21 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized25' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 21 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 21 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized25' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 21 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized25' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized25' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized12' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized13' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 22 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 22 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized27' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 22 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 22 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized27' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 22 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized27' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized27' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized13' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized14' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 23 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 23 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized29' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 23 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 23 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized29' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 23 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized29' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized29' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized14' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'fir_optimised_xldelay__parameterized15' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+	Parameter width bound to: 25 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter reg_retiming bound to: 0 - type: integer 
+	Parameter reset bound to: 0 - type: integer 
+	Parameter width bound to: 25 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:20' bound to instance 'synth_reg_srl_inst' of component 'synth_reg' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'synth_reg__parameterized31' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+	Parameter width bound to: 25 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 25 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'srlc33e__parameterized31' [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+	Parameter width bound to: 25 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srlc33e__parameterized31' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg__parameterized31' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_xldelay__parameterized15' (9#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised_entity_declarations.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised_struct' (10#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'fir_optimised' (11#1) [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/imports/sysgen/fir_optimised.vhd:1699]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1021.086 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1021.086 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1021.086 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1021.086 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 680 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i7/fir_optimised_c_addsub_v12_0_i7/fir_optimised_c_addsub_v12_0_i7_in_context.xdc] for cell 'fir_optimised_struct/addsub16/comp7.core_instance7'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i7/fir_optimised_c_addsub_v12_0_i7/fir_optimised_c_addsub_v12_0_i7_in_context.xdc] for cell 'fir_optimised_struct/addsub16/comp7.core_instance7'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i8/fir_optimised_c_addsub_v12_0_i8/fir_optimised_c_addsub_v12_0_i8_in_context.xdc] for cell 'fir_optimised_struct/addsub2/comp8.core_instance8'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i8/fir_optimised_c_addsub_v12_0_i8/fir_optimised_c_addsub_v12_0_i8_in_context.xdc] for cell 'fir_optimised_struct/addsub2/comp8.core_instance8'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i4/fir_optimised_c_addsub_v12_0_i4/fir_optimised_c_addsub_v12_0_i4_in_context.xdc] for cell 'fir_optimised_struct/addsub13/comp4.core_instance4'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i4/fir_optimised_c_addsub_v12_0_i4/fir_optimised_c_addsub_v12_0_i4_in_context.xdc] for cell 'fir_optimised_struct/addsub13/comp4.core_instance4'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i6/fir_optimised_c_addsub_v12_0_i6/fir_optimised_c_addsub_v12_0_i6_in_context.xdc] for cell 'fir_optimised_struct/addsub15/comp6.core_instance6'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i6/fir_optimised_c_addsub_v12_0_i6/fir_optimised_c_addsub_v12_0_i6_in_context.xdc] for cell 'fir_optimised_struct/addsub15/comp6.core_instance6'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i9/fir_optimised_c_addsub_v12_0_i9/fir_optimised_c_addsub_v12_0_i9_in_context.xdc] for cell 'fir_optimised_struct/addsub3/comp9.core_instance9'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i9/fir_optimised_c_addsub_v12_0_i9/fir_optimised_c_addsub_v12_0_i9_in_context.xdc] for cell 'fir_optimised_struct/addsub3/comp9.core_instance9'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i5/fir_optimised_c_addsub_v12_0_i5/fir_optimised_c_addsub_v12_0_i5_in_context.xdc] for cell 'fir_optimised_struct/addsub14/comp5.core_instance5'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i5/fir_optimised_c_addsub_v12_0_i5/fir_optimised_c_addsub_v12_0_i5_in_context.xdc] for cell 'fir_optimised_struct/addsub14/comp5.core_instance5'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i7/fir_optimised_mult_gen_v12_0_i7/fir_optimised_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_optimised_struct/cmult16/comp7.core_instance7'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i7/fir_optimised_mult_gen_v12_0_i7/fir_optimised_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_optimised_struct/cmult16/comp7.core_instance7'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i7/fir_optimised_mult_gen_v12_0_i7/fir_optimised_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_optimised_struct/cmult2/comp7.core_instance7'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i7/fir_optimised_mult_gen_v12_0_i7/fir_optimised_mult_gen_v12_0_i7_in_context.xdc] for cell 'fir_optimised_struct/cmult2/comp7.core_instance7'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i8/fir_optimised_mult_gen_v12_0_i8/fir_optimised_mult_gen_v12_0_i8_in_context.xdc] for cell 'fir_optimised_struct/cmult9/comp8.core_instance8'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i8/fir_optimised_mult_gen_v12_0_i8/fir_optimised_mult_gen_v12_0_i8_in_context.xdc] for cell 'fir_optimised_struct/cmult9/comp8.core_instance8'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i6/fir_optimised_mult_gen_v12_0_i6/fir_optimised_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_optimised_struct/cmult15/comp6.core_instance6'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i6/fir_optimised_mult_gen_v12_0_i6/fir_optimised_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_optimised_struct/cmult15/comp6.core_instance6'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i6/fir_optimised_mult_gen_v12_0_i6/fir_optimised_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_optimised_struct/cmult3/comp6.core_instance6'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i6/fir_optimised_mult_gen_v12_0_i6/fir_optimised_mult_gen_v12_0_i6_in_context.xdc] for cell 'fir_optimised_struct/cmult3/comp6.core_instance6'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i5/fir_optimised_mult_gen_v12_0_i5/fir_optimised_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_optimised_struct/cmult14/comp5.core_instance5'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i5/fir_optimised_mult_gen_v12_0_i5/fir_optimised_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_optimised_struct/cmult14/comp5.core_instance5'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i5/fir_optimised_mult_gen_v12_0_i5/fir_optimised_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_optimised_struct/cmult4/comp5.core_instance5'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i5/fir_optimised_mult_gen_v12_0_i5/fir_optimised_mult_gen_v12_0_i5_in_context.xdc] for cell 'fir_optimised_struct/cmult4/comp5.core_instance5'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i1/fir_optimised_c_addsub_v12_0_i1/fir_optimised_c_addsub_v12_0_i1_in_context.xdc] for cell 'fir_optimised_struct/addsub10/comp1.core_instance1'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i1/fir_optimised_c_addsub_v12_0_i1/fir_optimised_c_addsub_v12_0_i1_in_context.xdc] for cell 'fir_optimised_struct/addsub10/comp1.core_instance1'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i3/fir_optimised_c_addsub_v12_0_i3/fir_optimised_c_addsub_v12_0_i3_in_context.xdc] for cell 'fir_optimised_struct/addsub12/comp3.core_instance3'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i3/fir_optimised_c_addsub_v12_0_i3/fir_optimised_c_addsub_v12_0_i3_in_context.xdc] for cell 'fir_optimised_struct/addsub12/comp3.core_instance3'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i0/fir_optimised_c_addsub_v12_0_i0/fir_optimised_c_addsub_v12_0_i0_in_context.xdc] for cell 'fir_optimised_struct/addsub1/comp0.core_instance0'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i0/fir_optimised_c_addsub_v12_0_i0/fir_optimised_c_addsub_v12_0_i0_in_context.xdc] for cell 'fir_optimised_struct/addsub1/comp0.core_instance0'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i2/fir_optimised_c_addsub_v12_0_i2/fir_optimised_c_addsub_v12_0_i2_in_context.xdc] for cell 'fir_optimised_struct/addsub11/comp2.core_instance2'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i2/fir_optimised_c_addsub_v12_0_i2/fir_optimised_c_addsub_v12_0_i2_in_context.xdc] for cell 'fir_optimised_struct/addsub11/comp2.core_instance2'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i11/fir_optimised_c_addsub_v12_0_i11/fir_optimised_c_addsub_v12_0_i11_in_context.xdc] for cell 'fir_optimised_struct/addsub5/comp11.core_instance11'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i11/fir_optimised_c_addsub_v12_0_i11/fir_optimised_c_addsub_v12_0_i11_in_context.xdc] for cell 'fir_optimised_struct/addsub5/comp11.core_instance11'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i14/fir_optimised_c_addsub_v12_0_i14/fir_optimised_c_addsub_v12_0_i14_in_context.xdc] for cell 'fir_optimised_struct/addsub8/comp14.core_instance14'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i14/fir_optimised_c_addsub_v12_0_i14/fir_optimised_c_addsub_v12_0_i14_in_context.xdc] for cell 'fir_optimised_struct/addsub8/comp14.core_instance14'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i15/fir_optimised_c_addsub_v12_0_i15/fir_optimised_c_addsub_v12_0_i15_in_context.xdc] for cell 'fir_optimised_struct/addsub9/comp15.core_instance15'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i15/fir_optimised_c_addsub_v12_0_i15/fir_optimised_c_addsub_v12_0_i15_in_context.xdc] for cell 'fir_optimised_struct/addsub9/comp15.core_instance15'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i12/fir_optimised_c_addsub_v12_0_i12/fir_optimised_c_addsub_v12_0_i12_in_context.xdc] for cell 'fir_optimised_struct/addsub6/comp12.core_instance12'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i12/fir_optimised_c_addsub_v12_0_i12/fir_optimised_c_addsub_v12_0_i12_in_context.xdc] for cell 'fir_optimised_struct/addsub6/comp12.core_instance12'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i10/fir_optimised_c_addsub_v12_0_i10/fir_optimised_c_addsub_v12_0_i10_in_context.xdc] for cell 'fir_optimised_struct/addsub4/comp10.core_instance10'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i10/fir_optimised_c_addsub_v12_0_i10/fir_optimised_c_addsub_v12_0_i10_in_context.xdc] for cell 'fir_optimised_struct/addsub4/comp10.core_instance10'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i13/fir_optimised_c_addsub_v12_0_i13/fir_optimised_c_addsub_v12_0_i13_in_context.xdc] for cell 'fir_optimised_struct/addsub7/comp13.core_instance13'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_c_addsub_v12_0_i13/fir_optimised_c_addsub_v12_0_i13/fir_optimised_c_addsub_v12_0_i13_in_context.xdc] for cell 'fir_optimised_struct/addsub7/comp13.core_instance13'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i1/fir_optimised_mult_gen_v12_0_i1/fir_optimised_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_optimised_struct/cmult10/comp1.core_instance1'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i1/fir_optimised_mult_gen_v12_0_i1/fir_optimised_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_optimised_struct/cmult10/comp1.core_instance1'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i1/fir_optimised_mult_gen_v12_0_i1/fir_optimised_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_optimised_struct/cmult8/comp1.core_instance1'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i1/fir_optimised_mult_gen_v12_0_i1/fir_optimised_mult_gen_v12_0_i1_in_context.xdc] for cell 'fir_optimised_struct/cmult8/comp1.core_instance1'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i4/fir_optimised_mult_gen_v12_0_i4/fir_optimised_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_optimised_struct/cmult13/comp4.core_instance4'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i4/fir_optimised_mult_gen_v12_0_i4/fir_optimised_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_optimised_struct/cmult13/comp4.core_instance4'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i4/fir_optimised_mult_gen_v12_0_i4/fir_optimised_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_optimised_struct/cmult5/comp4.core_instance4'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i4/fir_optimised_mult_gen_v12_0_i4/fir_optimised_mult_gen_v12_0_i4_in_context.xdc] for cell 'fir_optimised_struct/cmult5/comp4.core_instance4'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i2/fir_optimised_mult_gen_v12_0_i2/fir_optimised_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_optimised_struct/cmult11/comp2.core_instance2'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i2/fir_optimised_mult_gen_v12_0_i2/fir_optimised_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_optimised_struct/cmult11/comp2.core_instance2'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i2/fir_optimised_mult_gen_v12_0_i2/fir_optimised_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_optimised_struct/cmult7/comp2.core_instance2'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i2/fir_optimised_mult_gen_v12_0_i2/fir_optimised_mult_gen_v12_0_i2_in_context.xdc] for cell 'fir_optimised_struct/cmult7/comp2.core_instance2'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i0/fir_optimised_mult_gen_v12_0_i0/fir_optimised_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_optimised_struct/cmult1/comp0.core_instance0'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i0/fir_optimised_mult_gen_v12_0_i0/fir_optimised_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_optimised_struct/cmult1/comp0.core_instance0'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i0/fir_optimised_mult_gen_v12_0_i0/fir_optimised_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_optimised_struct/cmult17/comp0.core_instance0'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i0/fir_optimised_mult_gen_v12_0_i0/fir_optimised_mult_gen_v12_0_i0_in_context.xdc] for cell 'fir_optimised_struct/cmult17/comp0.core_instance0'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i3/fir_optimised_mult_gen_v12_0_i3/fir_optimised_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_optimised_struct/cmult12/comp3.core_instance3'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i3/fir_optimised_mult_gen_v12_0_i3/fir_optimised_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_optimised_struct/cmult12/comp3.core_instance3'
+Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i3/fir_optimised_mult_gen_v12_0_i3/fir_optimised_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_optimised_struct/cmult6/comp3.core_instance3'
+Finished Parsing XDC File [c:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/sources_1/ip/fir_optimised_mult_gen_v12_0_i3/fir_optimised_mult_gen_v12_0_i3/fir_optimised_mult_gen_v12_0_i3_in_context.xdc] for cell 'fir_optimised_struct/cmult6/comp3.core_instance3'
+Parsing XDC File [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/constrs_1/imports/sysgen/fir_optimised_clock.xdc]
+Finished Parsing XDC File [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/constrs_1/imports/sysgen/fir_optimised_clock.xdc]
+Parsing XDC File [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/constrs_1/imports/sysgen/fir_optimised.xdc]
+Finished Parsing XDC File [C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.srcs/constrs_1/imports/sysgen/fir_optimised.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1037.102 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 680 instances were transformed.
+  FDE => FDRE: 680 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1048.355 ; gain = 11.254
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tftg256-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub16/\comp7.core_instance7 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub2/\comp8.core_instance8 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub13/\comp4.core_instance4 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub15/\comp6.core_instance6 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub3/\comp9.core_instance9 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub14/\comp5.core_instance5 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult16/\comp7.core_instance7 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult2/\comp7.core_instance7 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult9/\comp8.core_instance8 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult15/\comp6.core_instance6 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult3/\comp6.core_instance6 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult14/\comp5.core_instance5 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult4/\comp5.core_instance5 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub10/\comp1.core_instance1 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub12/\comp3.core_instance3 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub1/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub11/\comp2.core_instance2 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub5/\comp11.core_instance11 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub8/\comp14.core_instance14 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub9/\comp15.core_instance15 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub6/\comp12.core_instance12 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub4/\comp10.core_instance10 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/addsub7/\comp13.core_instance13 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult10/\comp1.core_instance1 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult8/\comp1.core_instance1 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult13/\comp4.core_instance4 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult5/\comp4.core_instance4 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult11/\comp2.core_instance2 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult7/\comp2.core_instance2 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult1/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult17/\comp0.core_instance0 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult12/\comp3.core_instance3 . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for fir_optimised_struct/cmult6/\comp3.core_instance3 . (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input   16 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------------------------+----------+
+|      |BlackBox name                    |Instances |
++------+---------------------------------+----------+
+|1     |fir_optimised_c_addsub_v12_0_i0  |         1|
+|2     |fir_optimised_c_addsub_v12_0_i1  |         1|
+|3     |fir_optimised_c_addsub_v12_0_i2  |         1|
+|4     |fir_optimised_c_addsub_v12_0_i3  |         1|
+|5     |fir_optimised_c_addsub_v12_0_i4  |         1|
+|6     |fir_optimised_c_addsub_v12_0_i5  |         1|
+|7     |fir_optimised_c_addsub_v12_0_i6  |         1|
+|8     |fir_optimised_c_addsub_v12_0_i7  |         1|
+|9     |fir_optimised_c_addsub_v12_0_i8  |         1|
+|10    |fir_optimised_c_addsub_v12_0_i9  |         1|
+|11    |fir_optimised_c_addsub_v12_0_i10 |         1|
+|12    |fir_optimised_c_addsub_v12_0_i11 |         1|
+|13    |fir_optimised_c_addsub_v12_0_i12 |         1|
+|14    |fir_optimised_c_addsub_v12_0_i13 |         1|
+|15    |fir_optimised_c_addsub_v12_0_i14 |         1|
+|16    |fir_optimised_c_addsub_v12_0_i15 |         1|
+|17    |fir_optimised_mult_gen_v12_0_i0  |         2|
+|18    |fir_optimised_mult_gen_v12_0_i1  |         2|
+|19    |fir_optimised_mult_gen_v12_0_i2  |         2|
+|20    |fir_optimised_mult_gen_v12_0_i3  |         2|
+|21    |fir_optimised_mult_gen_v12_0_i4  |         2|
+|22    |fir_optimised_mult_gen_v12_0_i5  |         2|
+|23    |fir_optimised_mult_gen_v12_0_i6  |         2|
+|24    |fir_optimised_mult_gen_v12_0_i7  |         2|
+|25    |fir_optimised_mult_gen_v12_0_i8  |         1|
++------+---------------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------------------+------+
+|      |Cell                                     |Count |
++------+-----------------------------------------+------+
+|1     |fir_optimised_c_addsub_v12_0_i0_bbox     |     1|
+|2     |fir_optimised_c_addsub_v12_0_i10_bbox    |     1|
+|3     |fir_optimised_c_addsub_v12_0_i11_bbox    |     1|
+|4     |fir_optimised_c_addsub_v12_0_i12_bbox    |     1|
+|5     |fir_optimised_c_addsub_v12_0_i13_bbox    |     1|
+|6     |fir_optimised_c_addsub_v12_0_i14_bbox    |     1|
+|7     |fir_optimised_c_addsub_v12_0_i15_bbox    |     1|
+|8     |fir_optimised_c_addsub_v12_0_i1_bbox     |     1|
+|9     |fir_optimised_c_addsub_v12_0_i2_bbox     |     1|
+|10    |fir_optimised_c_addsub_v12_0_i3_bbox     |     1|
+|11    |fir_optimised_c_addsub_v12_0_i4_bbox     |     1|
+|12    |fir_optimised_c_addsub_v12_0_i5_bbox     |     1|
+|13    |fir_optimised_c_addsub_v12_0_i6_bbox     |     1|
+|14    |fir_optimised_c_addsub_v12_0_i7_bbox     |     1|
+|15    |fir_optimised_c_addsub_v12_0_i8_bbox     |     1|
+|16    |fir_optimised_c_addsub_v12_0_i9_bbox     |     1|
+|17    |fir_optimised_mult_gen_v12_0_i0_bbox     |     1|
+|18    |fir_optimised_mult_gen_v12_0_i0_bbox_17_ |     1|
+|19    |fir_optimised_mult_gen_v12_0_i1_bbox     |     2|
+|21    |fir_optimised_mult_gen_v12_0_i2_bbox     |     1|
+|22    |fir_optimised_mult_gen_v12_0_i2_bbox_19_ |     1|
+|23    |fir_optimised_mult_gen_v12_0_i3_bbox     |     1|
+|24    |fir_optimised_mult_gen_v12_0_i3_bbox_20_ |     1|
+|25    |fir_optimised_mult_gen_v12_0_i4_bbox     |     1|
+|26    |fir_optimised_mult_gen_v12_0_i4_bbox_21_ |     1|
+|27    |fir_optimised_mult_gen_v12_0_i5_bbox     |     1|
+|28    |fir_optimised_mult_gen_v12_0_i5_bbox_22_ |     1|
+|29    |fir_optimised_mult_gen_v12_0_i6_bbox     |     1|
+|30    |fir_optimised_mult_gen_v12_0_i6_bbox_23_ |     1|
+|31    |fir_optimised_mult_gen_v12_0_i7_bbox     |     1|
+|32    |fir_optimised_mult_gen_v12_0_i7_bbox_24_ |     1|
+|33    |fir_optimised_mult_gen_v12_0_i8_bbox     |     1|
+|34    |LUT5                                     |   240|
+|35    |FDE                                      |   680|
++------+-----------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1048.355 ; gain = 27.270
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1048.355 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1048.355 ; gain = 27.270
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1048.355 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 680 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1053.938 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 680 instances were transformed.
+  FDE => FDRE: 680 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+370 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 1053.938 ; gain = 32.852
+INFO: [Common 17-1381] The checkpoint 'C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist/hdl_netlist/fir_optimised.runs/synth_1/fir_optimised.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fir_optimised_utilization_synth.rpt -pb fir_optimised_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 22 23:45:27 2020...

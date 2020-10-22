@@ -48,6 +48,7 @@ filtered_signal_sw=filter(b(1:taps),1,sig); %filter the signal
 %soundsc(filtered_signal,fs); %Play filtered
 % figure
 plot(sig); hold on; plot(filtered_signal_sw); legend('Original','Filtered'); title('Software');
+xlabel('Time (s)'); ylabel('Signal amplitude');
 %%
 % Parameters for the System Generator Design
 LH=length(sig);
@@ -72,6 +73,7 @@ C = out.C.Data;
 
 figure;
 plot(sig); hold on; plot(C); legend('Original','Filtered'); title('Hardware');
+xlabel('Time (s)'); ylabel('Signal amplitude');
 
 %error_vect = [];
 %for i = 1 : length(filtered_signal_sw)
@@ -86,14 +88,14 @@ plot(sig); hold on; plot(C); legend('Original','Filtered'); title('Hardware');
 
 SER = 20 * log10(((sum(C - filtered_signal_sw))^2)/((sum(filtered_signal_sw))^2));
 
-figure;
-hold on;
-plot(C);
-plot(filtered_signal_sw);
-title('Hardware vs software filtered');
-legend('Hardware', 'Software');
+% figure;
+% hold on;
+% plot(C);
+% plot(filtered_signal_sw);
+% title('Hardware vs software filtered');
+% legend('Hardware', 'Software');
 
-sound(filtered_signal_sw);
+%sound(filtered_signal_sw);
 
 %figure;
 %plot(SER_vect);

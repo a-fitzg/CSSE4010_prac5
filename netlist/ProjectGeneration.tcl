@@ -14,12 +14,12 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	set DSPFamily {artix7}
 	set DSPPackage {ftg256}
 	set DSPSpeed {-1}
-	set FPGAClockPeriod 28
+	set FPGAClockPeriod 7
 	set GenerateTestBench 0
 	set HDLLanguage {vhdl}
 	set IPOOCCacheRootPath {C:/Users/s4533087/AppData/Local/Xilinx/Sysgen/SysgenVivado/win64.o/ip}
 	set ImplStrategyName {Vivado Implementation Defaults}
-	set Project {fir_normal}
+	set Project {fir_optimised}
 	set ProjectFiles {
 		{{conv_pkg.vhd} -lib {xil_defaultlib}}
 		{{synth_reg.vhd} -lib {xil_defaultlib}}
@@ -30,19 +30,19 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 		{{single_reg_w_init.vhd} -lib {xil_defaultlib}}
 		{{xlclockdriver_rd.vhd} -lib {xil_defaultlib}}
 		{{vivado_ip.tcl}}
-		{{fir_normal_entity_declarations.vhd} -lib {xil_defaultlib}}
-		{{fir_normal.vhd} -lib {xil_defaultlib}}
-		{{fir_normal_clock.xdc}}
-		{{fir_normal.xdc}}
+		{{fir_optimised_entity_declarations.vhd} -lib {xil_defaultlib}}
+		{{fir_optimised.vhd} -lib {xil_defaultlib}}
+		{{fir_optimised_clock.xdc}}
+		{{fir_optimised.xdc}}
 	}
 	set SimPeriod 1
 	set SimTime 19999
-	set SimulationTime {560200.00000000 ns}
+	set SimulationTime {140200.00000000 ns}
 	set SynthStrategyName {Vivado Synthesis Defaults}
 	set SynthesisTool {Vivado}
-	set TargetDir {C:/Users/s4533087/CSSE4010/CSSE4010_prac5/netlist}
-	set TopLevelModule {fir_normal}
-	set TopLevelSimulinkHandle 722
+	set TargetDir {C:/Users/s4533087/CSSE4010/prac5/CSSE4010_prac5/netlist}
+	set TopLevelModule {fir_optimised}
+	set TopLevelSimulinkHandle 0.000488281
 	set VHDLLib {xil_defaultlib}
 	set TopLevelPortInterface {}
 	dict set TopLevelPortInterface gateway_in Name {gateway_in}
@@ -50,14 +50,14 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in ArithmeticType xlSigned
 	dict set TopLevelPortInterface gateway_in BinaryPoint 15
 	dict set TopLevelPortInterface gateway_in Width 16
-	dict set TopLevelPortInterface gateway_in DatFile {fir_normal_gateway_in.dat}
+	dict set TopLevelPortInterface gateway_in DatFile {fir_optimised_gateway_in.dat}
 	dict set TopLevelPortInterface gateway_in IconText {Gateway In}
 	dict set TopLevelPortInterface gateway_in Direction in
 	dict set TopLevelPortInterface gateway_in Period 1
 	dict set TopLevelPortInterface gateway_in Interface 0
 	dict set TopLevelPortInterface gateway_in InterfaceName {}
 	dict set TopLevelPortInterface gateway_in InterfaceString {DATA}
-	dict set TopLevelPortInterface gateway_in ClockDomain {fir_normal}
+	dict set TopLevelPortInterface gateway_in ClockDomain {fir_optimised}
 	dict set TopLevelPortInterface gateway_in Locs {}
 	dict set TopLevelPortInterface gateway_in IOStandard {}
 	dict set TopLevelPortInterface gateway_out Name {gateway_out}
@@ -65,14 +65,14 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_out ArithmeticType xlSigned
 	dict set TopLevelPortInterface gateway_out BinaryPoint 16
 	dict set TopLevelPortInterface gateway_out Width 32
-	dict set TopLevelPortInterface gateway_out DatFile {fir_normal_gateway_out.dat}
+	dict set TopLevelPortInterface gateway_out DatFile {fir_optimised_gateway_out.dat}
 	dict set TopLevelPortInterface gateway_out IconText {Gateway Out}
 	dict set TopLevelPortInterface gateway_out Direction out
 	dict set TopLevelPortInterface gateway_out Period 1
 	dict set TopLevelPortInterface gateway_out Interface 0
 	dict set TopLevelPortInterface gateway_out InterfaceName {}
 	dict set TopLevelPortInterface gateway_out InterfaceString {DATA}
-	dict set TopLevelPortInterface gateway_out ClockDomain {fir_normal}
+	dict set TopLevelPortInterface gateway_out ClockDomain {fir_optimised}
 	dict set TopLevelPortInterface gateway_out Locs {}
 	dict set TopLevelPortInterface gateway_out IOStandard {}
 	dict set TopLevelPortInterface clk Name {clk}
@@ -86,7 +86,7 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface clk Interface 6
 	dict set TopLevelPortInterface clk InterfaceName {}
 	dict set TopLevelPortInterface clk InterfaceString {CLOCK}
-	dict set TopLevelPortInterface clk ClockDomain {fir_normal}
+	dict set TopLevelPortInterface clk ClockDomain {fir_optimised}
 	dict set TopLevelPortInterface clk Locs {}
 	dict set TopLevelPortInterface clk IOStandard {}
 	dict set TopLevelPortInterface clk AssociatedInterfaces {}

@@ -35,10 +35,10 @@
 #-----------------------------------------------------------------
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i0] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i0
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i0] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i0
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i0}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i0}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {17}
@@ -64,15 +64,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i0]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i0]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i1] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i1
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i1] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i1
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i1}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i1}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {26}
@@ -98,15 +98,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i1]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i1]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i2] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i2
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i2] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i2
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i2}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i2}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {27}
@@ -132,15 +132,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i2]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i2]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i3] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i3
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i3] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i3
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i3}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i3}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {28}
@@ -166,15 +166,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i3]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i3]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i4] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i4
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i4] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i4
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i4}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i4}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {29}
@@ -200,15 +200,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i4]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i4]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i5] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i5
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i5] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i5
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i5}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i5}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {30}
@@ -234,15 +234,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i5]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i5]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i6] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i6
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i6] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i6
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i6}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i6}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {31}
@@ -268,15 +268,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i6]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i6]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i7] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i7
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i7] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i7
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i7}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i7}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {32}
@@ -302,15 +302,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i7]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i7]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i8] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i8
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i8] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i8
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i8}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i8}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {18}
@@ -336,15 +336,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i8]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i8]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i9] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i9
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i9] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i9
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i9}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i9}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {19}
@@ -370,15 +370,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i9]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i9]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i10] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i10
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i10] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i10
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i10}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i10}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {20}
@@ -404,15 +404,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i10]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i10]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i11] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i11
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i11] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i11
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i11}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i11}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {21}
@@ -438,15 +438,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i11]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i11]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i12] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i12
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i12] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i12
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i12}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i12}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {22}
@@ -472,15 +472,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i12]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i12]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i13] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i13
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i13] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i13
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i13}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i13}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {23}
@@ -506,15 +506,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i13]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i13]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i14] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i14
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i14] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i14
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i14}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i14}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {24}
@@ -540,15 +540,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i14]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i14]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_c_addsub_v12_0_i15] < 0} {
-create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_c_addsub_v12_0_i15
+if {[lsearch $existingipslist fir_optimised_c_addsub_v12_0_i15] < 0} {
+create_ip -name c_addsub -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_c_addsub_v12_0_i15
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_c_addsub_v12_0_i15}
+lappend params_list CONFIG.Component_Name {fir_optimised_c_addsub_v12_0_i15}
 lappend params_list CONFIG.AINIT_Value {0}
 lappend params_list CONFIG.A_Type {Signed}
 lappend params_list CONFIG.A_Width {25}
@@ -574,15 +574,15 @@ lappend params_list CONFIG.SSET {false}
 lappend params_list CONFIG.Sync_CE_Priority {Sync_Overrides_CE}
 lappend params_list CONFIG.Sync_Ctrl_Priority {Reset_Overrides_Set}
 
-set_property -dict $params_list [get_ips fir_normal_c_addsub_v12_0_i15]
+set_property -dict $params_list [get_ips fir_optimised_c_addsub_v12_0_i15]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_mult_gen_v12_0_i0] < 0} {
-create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_mult_gen_v12_0_i0
+if {[lsearch $existingipslist fir_optimised_mult_gen_v12_0_i0] < 0} {
+create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_mult_gen_v12_0_i0
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_mult_gen_v12_0_i0}
+lappend params_list CONFIG.Component_Name {fir_optimised_mult_gen_v12_0_i0}
 lappend params_list CONFIG.ccmimp {Distributed_Memory}
 lappend params_list CONFIG.clockenable {false}
 lappend params_list CONFIG.constvalue {-33}
@@ -598,15 +598,15 @@ lappend params_list CONFIG.portbwidth {16}
 lappend params_list CONFIG.syncclear {false}
 lappend params_list CONFIG.use_custom_output_width {true}
 
-set_property -dict $params_list [get_ips fir_normal_mult_gen_v12_0_i0]
+set_property -dict $params_list [get_ips fir_optimised_mult_gen_v12_0_i0]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_mult_gen_v12_0_i1] < 0} {
-create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_mult_gen_v12_0_i1
+if {[lsearch $existingipslist fir_optimised_mult_gen_v12_0_i1] < 0} {
+create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_mult_gen_v12_0_i1
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_mult_gen_v12_0_i1}
+lappend params_list CONFIG.Component_Name {fir_optimised_mult_gen_v12_0_i1}
 lappend params_list CONFIG.ccmimp {Distributed_Memory}
 lappend params_list CONFIG.clockenable {false}
 lappend params_list CONFIG.constvalue {2489}
@@ -622,15 +622,15 @@ lappend params_list CONFIG.portbwidth {16}
 lappend params_list CONFIG.syncclear {false}
 lappend params_list CONFIG.use_custom_output_width {true}
 
-set_property -dict $params_list [get_ips fir_normal_mult_gen_v12_0_i1]
+set_property -dict $params_list [get_ips fir_optimised_mult_gen_v12_0_i1]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_mult_gen_v12_0_i2] < 0} {
-create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_mult_gen_v12_0_i2
+if {[lsearch $existingipslist fir_optimised_mult_gen_v12_0_i2] < 0} {
+create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_mult_gen_v12_0_i2
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_mult_gen_v12_0_i2}
+lappend params_list CONFIG.Component_Name {fir_optimised_mult_gen_v12_0_i2}
 lappend params_list CONFIG.ccmimp {Distributed_Memory}
 lappend params_list CONFIG.clockenable {false}
 lappend params_list CONFIG.constvalue {1988}
@@ -646,15 +646,15 @@ lappend params_list CONFIG.portbwidth {16}
 lappend params_list CONFIG.syncclear {false}
 lappend params_list CONFIG.use_custom_output_width {true}
 
-set_property -dict $params_list [get_ips fir_normal_mult_gen_v12_0_i2]
+set_property -dict $params_list [get_ips fir_optimised_mult_gen_v12_0_i2]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_mult_gen_v12_0_i3] < 0} {
-create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_mult_gen_v12_0_i3
+if {[lsearch $existingipslist fir_optimised_mult_gen_v12_0_i3] < 0} {
+create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_mult_gen_v12_0_i3
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_mult_gen_v12_0_i3}
+lappend params_list CONFIG.Component_Name {fir_optimised_mult_gen_v12_0_i3}
 lappend params_list CONFIG.ccmimp {Distributed_Memory}
 lappend params_list CONFIG.clockenable {false}
 lappend params_list CONFIG.constvalue {1339}
@@ -670,15 +670,15 @@ lappend params_list CONFIG.portbwidth {16}
 lappend params_list CONFIG.syncclear {false}
 lappend params_list CONFIG.use_custom_output_width {true}
 
-set_property -dict $params_list [get_ips fir_normal_mult_gen_v12_0_i3]
+set_property -dict $params_list [get_ips fir_optimised_mult_gen_v12_0_i3]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_mult_gen_v12_0_i4] < 0} {
-create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_mult_gen_v12_0_i4
+if {[lsearch $existingipslist fir_optimised_mult_gen_v12_0_i4] < 0} {
+create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_mult_gen_v12_0_i4
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_mult_gen_v12_0_i4}
+lappend params_list CONFIG.Component_Name {fir_optimised_mult_gen_v12_0_i4}
 lappend params_list CONFIG.ccmimp {Distributed_Memory}
 lappend params_list CONFIG.clockenable {false}
 lappend params_list CONFIG.constvalue {729}
@@ -694,15 +694,15 @@ lappend params_list CONFIG.portbwidth {16}
 lappend params_list CONFIG.syncclear {false}
 lappend params_list CONFIG.use_custom_output_width {true}
 
-set_property -dict $params_list [get_ips fir_normal_mult_gen_v12_0_i4]
+set_property -dict $params_list [get_ips fir_optimised_mult_gen_v12_0_i4]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_mult_gen_v12_0_i5] < 0} {
-create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_mult_gen_v12_0_i5
+if {[lsearch $existingipslist fir_optimised_mult_gen_v12_0_i5] < 0} {
+create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_mult_gen_v12_0_i5
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_mult_gen_v12_0_i5}
+lappend params_list CONFIG.Component_Name {fir_optimised_mult_gen_v12_0_i5}
 lappend params_list CONFIG.ccmimp {Distributed_Memory}
 lappend params_list CONFIG.clockenable {false}
 lappend params_list CONFIG.constvalue {292}
@@ -718,15 +718,15 @@ lappend params_list CONFIG.portbwidth {16}
 lappend params_list CONFIG.syncclear {false}
 lappend params_list CONFIG.use_custom_output_width {true}
 
-set_property -dict $params_list [get_ips fir_normal_mult_gen_v12_0_i5]
+set_property -dict $params_list [get_ips fir_optimised_mult_gen_v12_0_i5]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_mult_gen_v12_0_i6] < 0} {
-create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_mult_gen_v12_0_i6
+if {[lsearch $existingipslist fir_optimised_mult_gen_v12_0_i6] < 0} {
+create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_mult_gen_v12_0_i6
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_mult_gen_v12_0_i6}
+lappend params_list CONFIG.Component_Name {fir_optimised_mult_gen_v12_0_i6}
 lappend params_list CONFIG.ccmimp {Distributed_Memory}
 lappend params_list CONFIG.clockenable {false}
 lappend params_list CONFIG.constvalue {63}
@@ -742,15 +742,15 @@ lappend params_list CONFIG.portbwidth {16}
 lappend params_list CONFIG.syncclear {false}
 lappend params_list CONFIG.use_custom_output_width {true}
 
-set_property -dict $params_list [get_ips fir_normal_mult_gen_v12_0_i6]
+set_property -dict $params_list [get_ips fir_optimised_mult_gen_v12_0_i6]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_mult_gen_v12_0_i7] < 0} {
-create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_mult_gen_v12_0_i7
+if {[lsearch $existingipslist fir_optimised_mult_gen_v12_0_i7] < 0} {
+create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_mult_gen_v12_0_i7
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_mult_gen_v12_0_i7}
+lappend params_list CONFIG.Component_Name {fir_optimised_mult_gen_v12_0_i7}
 lappend params_list CONFIG.ccmimp {Distributed_Memory}
 lappend params_list CONFIG.clockenable {false}
 lappend params_list CONFIG.constvalue {-15}
@@ -766,15 +766,15 @@ lappend params_list CONFIG.portbwidth {16}
 lappend params_list CONFIG.syncclear {false}
 lappend params_list CONFIG.use_custom_output_width {true}
 
-set_property -dict $params_list [get_ips fir_normal_mult_gen_v12_0_i7]
+set_property -dict $params_list [get_ips fir_optimised_mult_gen_v12_0_i7]
 }
 
 
 set existingipslist [get_ips]
-if {[lsearch $existingipslist fir_normal_mult_gen_v12_0_i8] < 0} {
-create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_normal_mult_gen_v12_0_i8
+if {[lsearch $existingipslist fir_optimised_mult_gen_v12_0_i8] < 0} {
+create_ip -name mult_gen -version 12.0 -vendor xilinx.com -library ip -module_name fir_optimised_mult_gen_v12_0_i8
 set params_list [list]
-lappend params_list CONFIG.Component_Name {fir_normal_mult_gen_v12_0_i8}
+lappend params_list CONFIG.Component_Name {fir_optimised_mult_gen_v12_0_i8}
 lappend params_list CONFIG.ccmimp {Distributed_Memory}
 lappend params_list CONFIG.clockenable {false}
 lappend params_list CONFIG.constvalue {2677}
@@ -790,7 +790,7 @@ lappend params_list CONFIG.portbwidth {16}
 lappend params_list CONFIG.syncclear {false}
 lappend params_list CONFIG.use_custom_output_width {true}
 
-set_property -dict $params_list [get_ips fir_normal_mult_gen_v12_0_i8]
+set_property -dict $params_list [get_ips fir_optimised_mult_gen_v12_0_i8]
 }
 
 

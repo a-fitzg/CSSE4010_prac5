@@ -1,0 +1,894 @@
+{
+  'total' => {
+    'BRAMs' => '135',
+    'DSPs' => '240',
+    'LUTs' => '63400',
+    'Registers' => '126800'
+  },
+  'utilization' => [
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 147.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub1',
+      'Name' => 'AddSub1',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 17,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 148.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub10',
+      'Name' => 'AddSub10',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 26,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 149.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub11',
+      'Name' => 'AddSub11',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 27,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 150.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub12',
+      'Name' => 'AddSub12',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 28,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 151.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub13',
+      'Name' => 'AddSub13',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 29,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 152.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub14',
+      'Name' => 'AddSub14',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 30,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 153.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub15',
+      'Name' => 'AddSub15',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 31,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 154.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub16',
+      'Name' => 'AddSub16',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 32,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 155.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub2',
+      'Name' => 'AddSub2',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 18,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 156.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub3',
+      'Name' => 'AddSub3',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 19,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 157.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub4',
+      'Name' => 'AddSub4',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 20,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 158.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub5',
+      'Name' => 'AddSub5',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 21,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 159.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub6',
+      'Name' => 'AddSub6',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 22,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 160.00024414063,
+      'Hier_Name' => 'fir_optimised/AddSub7',
+      'Name' => 'AddSub7',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 23,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 295.00012207031,
+      'Hier_Name' => 'fir_optimised/AddSub8',
+      'Name' => 'AddSub8',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 24,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 296.00012207031,
+      'Hier_Name' => 'fir_optimised/AddSub9',
+      'Name' => 'AddSub9',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 25,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 297.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult1',
+      'Name' => 'CMult1',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 60,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 298.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult10',
+      'Name' => 'CMult10',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 70,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 299.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult11',
+      'Name' => 'CMult11',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 64,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 300.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult12',
+      'Name' => 'CMult12',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 68,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 301.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult13',
+      'Name' => 'CMult13',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 62,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 302.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult14',
+      'Name' => 'CMult14',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 50,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 303.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult15',
+      'Name' => 'CMult15',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 57,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 304.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult16',
+      'Name' => 'CMult16',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 50,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 305.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult17',
+      'Name' => 'CMult17',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 60,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 306.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult2',
+      'Name' => 'CMult2',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 50,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 307.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult3',
+      'Name' => 'CMult3',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 57,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 308.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult4',
+      'Name' => 'CMult4',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 50,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 309.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult5',
+      'Name' => 'CMult5',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 62,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 310.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult6',
+      'Name' => 'CMult6',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 68,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 311.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult7',
+      'Name' => 'CMult7',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 64,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 312.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult8',
+      'Name' => 'CMult8',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 55,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 313.00012207031,
+      'Hier_Name' => 'fir_optimised/CMult9',
+      'Name' => 'CMult9',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 71,
+        'Registers' => 0.00000000000
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 314.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay',
+      'Name' => 'Delay',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 315.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay1',
+      'Name' => 'Delay1',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 316.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay10',
+      'Name' => 'Delay10',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 24
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 317.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay11',
+      'Name' => 'Delay11',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 26
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 318.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay12',
+      'Name' => 'Delay12',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 27
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 319.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay13',
+      'Name' => 'Delay13',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 28
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 320.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay14',
+      'Name' => 'Delay14',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 29
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 321.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay15',
+      'Name' => 'Delay15',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 30
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 322.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay16',
+      'Name' => 'Delay16',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 323.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay17',
+      'Name' => 'Delay17',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 32
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 324.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay18',
+      'Name' => 'Delay18',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 31
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 325.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay19',
+      'Name' => 'Delay19',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 326.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay2',
+      'Name' => 'Delay2',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 17
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 327.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay20',
+      'Name' => 'Delay20',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 328.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay21',
+      'Name' => 'Delay21',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 329.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay22',
+      'Name' => 'Delay22',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 330.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay23',
+      'Name' => 'Delay23',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 331.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay24',
+      'Name' => 'Delay24',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 332.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay25',
+      'Name' => 'Delay25',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 333.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay26',
+      'Name' => 'Delay26',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 334.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay27',
+      'Name' => 'Delay27',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 335.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay28',
+      'Name' => 'Delay28',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 336.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay29',
+      'Name' => 'Delay29',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 337.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay3',
+      'Name' => 'Delay3',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 18
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 338.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay30',
+      'Name' => 'Delay30',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 339.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay31',
+      'Name' => 'Delay31',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 340.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay32',
+      'Name' => 'Delay32',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 341.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay33',
+      'Name' => 'Delay33',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 16
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 342.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay4',
+      'Name' => 'Delay4',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 19
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 343.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay5',
+      'Name' => 'Delay5',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 20
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 344.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay6',
+      'Name' => 'Delay6',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 21
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 345.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay7',
+      'Name' => 'Delay7',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 22
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 346.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay8',
+      'Name' => 'Delay8',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 23
+      }
+    },
+    {
+      'Block_Type' => 1.00000000000,
+      'Handle' => 347.00012207031,
+      'Hier_Name' => 'fir_optimised/Delay9',
+      'Name' => 'Delay9',
+      'Parent_Handle' => 0.00048828125,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 0.00000000000,
+        'Registers' => 25
+      }
+    },
+    {
+      'Block_Type' => 3.00000000000,
+      'Handle' => 0.00048828125,
+      'Hier_Name' => 'fir_optimised',
+      'Name' => 'fir_optimised',
+      'Parent_Handle' => 0.00000000000,
+      'Resources' => {
+        'BRAMs' => 0.00000000000,
+        'DSPs' => 0.00000000000,
+        'LUTs' => 1410,
+        'Registers' => 680
+      }
+    }
+  ]
+}

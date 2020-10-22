@@ -1,0 +1,955 @@
+# Vivado resource utilization data is represented in anytable format
+# The data will be consumed by Resource Utilization flow in SysGen.
+
+{
+   'Design_Information' => [
+     { 
+        'PART' => 'xc7a100tftg256-1',
+        'Vivado_Stage' => 'Post Synthesis',
+        'Top_Module' => 'fir_optimised',
+        'HDL_Language' => 'vhdl',
+        'Netlist_Crossprobe_File' => 'fir_optimised.vhd.at',
+     },
+   ],
+   'Device_Resources' => [
+     { 
+        'BRAMs' => '135',
+        'DSPs' => '240',
+        'Registers' => '126800',
+        'LUTs' => '63400',
+     },
+   ],
+   'Resource_Utilization_Data' => [
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_90',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub1',
+          'Cell_Name' => 'fir_optimised_struct/addsub1',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 5,
+                    'LUT2' => 17,
+                    'Total_LUTs' => 17,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_121',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub10',
+          'Cell_Name' => 'fir_optimised_struct/addsub10',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 7,
+                    'LUT2' => 26,
+                    'Total_LUTs' => 26,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_152',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub11',
+          'Cell_Name' => 'fir_optimised_struct/addsub11',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 7,
+                    'LUT2' => 27,
+                    'Total_LUTs' => 27,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_183',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub12',
+          'Cell_Name' => 'fir_optimised_struct/addsub12',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 7,
+                    'LUT2' => 28,
+                    'Total_LUTs' => 28,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_214',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub13',
+          'Cell_Name' => 'fir_optimised_struct/addsub13',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 8,
+                    'LUT2' => 29,
+                    'Total_LUTs' => 29,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_245',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub14',
+          'Cell_Name' => 'fir_optimised_struct/addsub14',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 8,
+                    'LUT2' => 30,
+                    'Total_LUTs' => 30,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_276',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub15',
+          'Cell_Name' => 'fir_optimised_struct/addsub15',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 8,
+                    'LUT2' => 31,
+                    'Total_LUTs' => 31,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_307',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub16',
+          'Cell_Name' => 'fir_optimised_struct/addsub16',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 8,
+                    'LUT2' => 32,
+                    'Total_LUTs' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_338',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub2',
+          'Cell_Name' => 'fir_optimised_struct/addsub2',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 5,
+                    'LUT2' => 18,
+                    'Total_LUTs' => 18,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_369',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub3',
+          'Cell_Name' => 'fir_optimised_struct/addsub3',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 5,
+                    'LUT2' => 19,
+                    'Total_LUTs' => 19,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_400',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub4',
+          'Cell_Name' => 'fir_optimised_struct/addsub4',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 5,
+                    'LUT2' => 20,
+                    'Total_LUTs' => 20,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_431',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub5',
+          'Cell_Name' => 'fir_optimised_struct/addsub5',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 6,
+                    'LUT2' => 21,
+                    'Total_LUTs' => 21,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_462',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub6',
+          'Cell_Name' => 'fir_optimised_struct/addsub6',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 6,
+                    'LUT2' => 22,
+                    'Total_LUTs' => 22,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_493',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub7',
+          'Cell_Name' => 'fir_optimised_struct/addsub7',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 6,
+                    'LUT2' => 23,
+                    'Total_LUTs' => 23,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_524',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub8',
+          'Cell_Name' => 'fir_optimised_struct/addsub8',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 6,
+                    'LUT2' => 24,
+                    'Total_LUTs' => 24,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_555',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.addsub9',
+          'Cell_Name' => 'fir_optimised_struct/addsub9',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 7,
+                    'LUT2' => 25,
+                    'Total_LUTs' => 25,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_586',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult1',
+          'Cell_Name' => 'fir_optimised_struct/cmult1',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 11,
+                    'LUT3' => 3,
+                    'LUT4' => 6,
+                    'LUT5' => 22,
+                    'LUT6' => 17,
+                    'CARRY4' => 7,
+                    'LUT1' => 1,
+                    'Total_LUTs' => 60,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_619',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult10',
+          'Cell_Name' => 'fir_optimised_struct/cmult10',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 14,
+                    'LUT3' => 2,
+                    'LUT4' => 4,
+                    'LUT6' => 26,
+                    'LUT5' => 24,
+                    'CARRY4' => 9,
+                    'Total_LUTs' => 70,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_652',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult11',
+          'Cell_Name' => 'fir_optimised_struct/cmult11',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 14,
+                    'LUT3' => 4,
+                    'LUT4' => 8,
+                    'LUT5' => 19,
+                    'CARRY4' => 8,
+                    'LUT1' => 1,
+                    'LUT6' => 18,
+                    'Total_LUTs' => 64,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_685',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult12',
+          'Cell_Name' => 'fir_optimised_struct/cmult12',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 9,
+                    'LUT3' => 3,
+                    'LUT6' => 25,
+                    'LUT5' => 26,
+                    'LUT4' => 5,
+                    'CARRY4' => 9,
+                    'Total_LUTs' => 68,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_718',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult13',
+          'Cell_Name' => 'fir_optimised_struct/cmult13',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 12,
+                    'LUT3' => 2,
+                    'LUT4' => 4,
+                    'LUT6' => 22,
+                    'LUT5' => 22,
+                    'CARRY4' => 9,
+                    'Total_LUTs' => 62,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_751',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult14',
+          'Cell_Name' => 'fir_optimised_struct/cmult14',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 9,
+                    'LUT3' => 2,
+                    'LUT4' => 5,
+                    'LUT5' => 18,
+                    'LUT6' => 16,
+                    'CARRY4' => 7,
+                    'Total_LUTs' => 50,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_784',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult15',
+          'Cell_Name' => 'fir_optimised_struct/cmult15',
+          'Primitives' => [ 
+               {
+                    'LUT5' => 19,
+                    'LUT4' => 9,
+                    'LUT2' => 8,
+                    'LUT3' => 5,
+                    'LUT6' => 15,
+                    'CARRY4' => 7,
+                    'LUT1' => 1,
+                    'Total_LUTs' => 57,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_817',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult16',
+          'Cell_Name' => 'fir_optimised_struct/cmult16',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 13,
+                    'LUT4' => 6,
+                    'LUT3' => 3,
+                    'LUT5' => 18,
+                    'LUT6' => 10,
+                    'CARRY4' => 5,
+                    'Total_LUTs' => 50,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_850',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult17',
+          'Cell_Name' => 'fir_optimised_struct/cmult17',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 11,
+                    'LUT3' => 3,
+                    'LUT4' => 6,
+                    'LUT5' => 22,
+                    'LUT6' => 17,
+                    'CARRY4' => 7,
+                    'LUT1' => 1,
+                    'Total_LUTs' => 60,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_883',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult2',
+          'Cell_Name' => 'fir_optimised_struct/cmult2',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 13,
+                    'LUT4' => 6,
+                    'LUT3' => 3,
+                    'LUT5' => 18,
+                    'LUT6' => 10,
+                    'CARRY4' => 5,
+                    'Total_LUTs' => 50,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_916',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult3',
+          'Cell_Name' => 'fir_optimised_struct/cmult3',
+          'Primitives' => [ 
+               {
+                    'LUT5' => 19,
+                    'LUT4' => 9,
+                    'LUT2' => 8,
+                    'LUT3' => 5,
+                    'LUT6' => 15,
+                    'CARRY4' => 7,
+                    'LUT1' => 1,
+                    'Total_LUTs' => 57,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_949',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult4',
+          'Cell_Name' => 'fir_optimised_struct/cmult4',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 9,
+                    'LUT3' => 2,
+                    'LUT4' => 5,
+                    'LUT5' => 18,
+                    'LUT6' => 16,
+                    'CARRY4' => 7,
+                    'Total_LUTs' => 50,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_982',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult5',
+          'Cell_Name' => 'fir_optimised_struct/cmult5',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 12,
+                    'LUT3' => 2,
+                    'LUT4' => 4,
+                    'LUT6' => 22,
+                    'LUT5' => 22,
+                    'CARRY4' => 9,
+                    'Total_LUTs' => 62,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1015',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult6',
+          'Cell_Name' => 'fir_optimised_struct/cmult6',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 9,
+                    'LUT3' => 3,
+                    'LUT6' => 25,
+                    'LUT5' => 26,
+                    'LUT4' => 5,
+                    'CARRY4' => 9,
+                    'Total_LUTs' => 68,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1048',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult7',
+          'Cell_Name' => 'fir_optimised_struct/cmult7',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 14,
+                    'LUT3' => 4,
+                    'LUT4' => 8,
+                    'LUT5' => 19,
+                    'CARRY4' => 8,
+                    'LUT1' => 1,
+                    'LUT6' => 18,
+                    'Total_LUTs' => 64,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1081',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult8',
+          'Cell_Name' => 'fir_optimised_struct/cmult8',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 14,
+                    'LUT3' => 2,
+                    'LUT4' => 4,
+                    'LUT6' => 26,
+                    'LUT5' => 9,
+                    'CARRY4' => 9,
+                    'Total_LUTs' => 55,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1114',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.cmult9',
+          'Cell_Name' => 'fir_optimised_struct/cmult9',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 12,
+                    'LUT3' => 2,
+                    'LUT4' => 3,
+                    'LUT6' => 27,
+                    'LUT5' => 27,
+                    'CARRY4' => 9,
+                    'Total_LUTs' => 71,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1147',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay',
+          'Cell_Name' => 'fir_optimised_struct/delay',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1162',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay1',
+          'Cell_Name' => 'fir_optimised_struct/delay1',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1177',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay10',
+          'Cell_Name' => 'fir_optimised_struct/delay10',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 24,
+                    'Total_Registers' => 24,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1192',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay11',
+          'Cell_Name' => 'fir_optimised_struct/delay11',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 26,
+                    'Total_Registers' => 26,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1207',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay12',
+          'Cell_Name' => 'fir_optimised_struct/delay12',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 27,
+                    'Total_Registers' => 27,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1222',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay13',
+          'Cell_Name' => 'fir_optimised_struct/delay13',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 28,
+                    'Total_Registers' => 28,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1237',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay14',
+          'Cell_Name' => 'fir_optimised_struct/delay14',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 29,
+                    'Total_Registers' => 29,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1252',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay15',
+          'Cell_Name' => 'fir_optimised_struct/delay15',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 30,
+                    'Total_Registers' => 30,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1267',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay16',
+          'Cell_Name' => 'fir_optimised_struct/delay16',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1282',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay17',
+          'Cell_Name' => 'fir_optimised_struct/delay17',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 32,
+                    'Total_Registers' => 32,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1297',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay18',
+          'Cell_Name' => 'fir_optimised_struct/delay18',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 31,
+                    'Total_Registers' => 31,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1312',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay19',
+          'Cell_Name' => 'fir_optimised_struct/delay19',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1327',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay2',
+          'Cell_Name' => 'fir_optimised_struct/delay2',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 17,
+                    'Total_Registers' => 17,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1342',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay20',
+          'Cell_Name' => 'fir_optimised_struct/delay20',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1357',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay21',
+          'Cell_Name' => 'fir_optimised_struct/delay21',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1372',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay22',
+          'Cell_Name' => 'fir_optimised_struct/delay22',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1387',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay23',
+          'Cell_Name' => 'fir_optimised_struct/delay23',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1402',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay24',
+          'Cell_Name' => 'fir_optimised_struct/delay24',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1417',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay25',
+          'Cell_Name' => 'fir_optimised_struct/delay25',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1432',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay26',
+          'Cell_Name' => 'fir_optimised_struct/delay26',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1447',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay27',
+          'Cell_Name' => 'fir_optimised_struct/delay27',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1462',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay28',
+          'Cell_Name' => 'fir_optimised_struct/delay28',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1477',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay29',
+          'Cell_Name' => 'fir_optimised_struct/delay29',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1492',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay3',
+          'Cell_Name' => 'fir_optimised_struct/delay3',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 18,
+                    'Total_Registers' => 18,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1507',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay30',
+          'Cell_Name' => 'fir_optimised_struct/delay30',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1522',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay31',
+          'Cell_Name' => 'fir_optimised_struct/delay31',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1537',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay32',
+          'Cell_Name' => 'fir_optimised_struct/delay32',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1552',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay33',
+          'Cell_Name' => 'fir_optimised_struct/delay33',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 16,
+                    'Total_Registers' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1567',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay4',
+          'Cell_Name' => 'fir_optimised_struct/delay4',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 19,
+                    'Total_Registers' => 19,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1582',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay5',
+          'Cell_Name' => 'fir_optimised_struct/delay5',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 20,
+                    'Total_Registers' => 20,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1597',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay6',
+          'Cell_Name' => 'fir_optimised_struct/delay6',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 21,
+                    'Total_Registers' => 21,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1612',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay7',
+          'Cell_Name' => 'fir_optimised_struct/delay7',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 22,
+                    'Total_Registers' => 22,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1627',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay8',
+          'Cell_Name' => 'fir_optimised_struct/delay8',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 23,
+                    'Total_Registers' => 23,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_1642',
+          'Hier_Name' => 'fir_optimised.fir_optimised_struct.delay9',
+          'Cell_Name' => 'fir_optimised_struct/delay9',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 25,
+                    'Total_Registers' => 25,
+               },
+          ], 
+     },
+     { 
+          'File_Name' => 'fir_optimised.vhd',
+          'Line_Num' => 'Line_000',
+          'Hier_Name' => 'fir_optimised',
+          'Cell_Name' => 'fir_optimised',
+          'Primitives' => [ 
+               { 
+                    'CARRY4' => 235,
+                    'LUT2' => 584,
+                    'LUT3' => 50,
+                    'LUT4' => 97,
+                    'LUT5' => 348,
+                    'LUT6' => 325,
+                    'LUT1' => 6,
+                    'FDRE' => 680,
+                    'Total_LUTs' => 1410,
+                    'Total_Registers' => 680,
+               },
+          ],
+     },
+   ],
+} 
